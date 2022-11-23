@@ -19386,9 +19386,17 @@ iframe {
   background-image: linear-gradient(to bottom, #FF7D68, #FF946D); */
 }
 
+.inputFormularios{
+  padding: 10px !important;
+  font-size: 20px !important;
+}
+
 .inputFormularios::placeholder{
   font-size: 20px;
+}
 
+.inputNewsletter{
+  padding-left: 40px !important;
 }
 
 /* Hover */
