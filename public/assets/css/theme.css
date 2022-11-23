@@ -19371,18 +19371,24 @@ iframe {
 }
 
 .orange-gradient-btn {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF946D), to(#FF7D68));
+  /* background-image: -webkit-gradient(linear, left top, left bottom, from(#FF946D), to(#FF7D68));
   background-image: -o-linear-gradient(top, #FF946D, #FF7D68);
-  background-image: linear-gradient(to bottom, #FF946D, #FF7D68);
+  background-image: linear-gradient(to bottom, #FF946D, #FF7D68); */
   border: none;
   border-radius: 0.625rem;
   padding: 1rem 2.5rem;
+
 }
 
 .orange-gradient-btn:hover, .orange-gradient-btn:focus {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#FF7D68), to(#FF946D));
+/*   background-image: -webkit-gradient(linear, left top, left bottom, from(#FF7D68), to(#FF946D));
   background-image: -o-linear-gradient(top, #FF7D68, #FF946D);
-  background-image: linear-gradient(to bottom, #FF7D68, #FF946D);
+  background-image: linear-gradient(to bottom, #FF7D68, #FF946D); */
+}
+
+.inputFormularios::placeholder{
+  font-size: 20px;
+
 }
 
 /* Hover */
@@ -19617,6 +19623,15 @@ iframe {
 
 .form-little-squirrel-control:hover, .form-little-squirrel-control:focus {
   background-color: #ffffff;
+}
+
+.inputNombre{
+  margin-right: 20px;
+}
+
+.inputMensaje{
+  resize: none;
+  margin: 10px 0;
 }
 
 .majestic-tabs {

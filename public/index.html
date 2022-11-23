@@ -62,7 +62,7 @@
         </div>
       </div>
     </nav>
-    <section style="padding-top: 10rem;">
+    <section style="padding-top: 7rem;">
       <div class="bg-holder" style="background-image:url(assets/img/hero/hero-bg.svg);">
       </div>
       <!--/.bg-holder-->
@@ -381,15 +381,19 @@
             <div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"> <img src="assets/img/cta/shape-bg1.png" style="max-width: 340px;" alt="cta shape" /></div>
             <div class="row justify-content-center">
               <div class="col-lg-8 col-md-10">
-                <h2 class="text-secondary lh-1-7 mb-7">Subscribe to get information, latest news and other interesting offers about Cobham</h2>
+                <h2 class="text-secondary lh-1-7 mb-7">¿Tenés dudas? <br> Contactate con nosotros</h2>
                 <form class="row g-3 align-items-center w-lg-75 mx-auto">
                   <div class="col-sm">
-                    <div class="input-group-icon">
-                      <input class="form-control form-little-squirrel-control" type="email" placeholder="Enter email " aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17" alt="mail" />
+                    <div class="input-group-icon d-flex ">
+                      <input class="form-control form-little-squirrel-control inputNombre inputFormularios" type="text" placeholder="Nombre " aria-label="nombre" />
+                      <input class="form-control form-little-squirrel-control inputFormularios" type="email" placeholder="Email " aria-label="email" />
+                    </div>
+                    <div class="input-group-icon d-flex mt-2"></div>
+                      <textarea class="container form-control form-little-squirrel-control inputMensaje inputFormularios" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
                     </div>
                   </div>
-                  <div class="col-sm-auto">
-                    <button class="btn btn-danger orange-gradient-btn fs--1">Subscribe</button>
+                  <div class="row-sm-auto">
+                    <button class="btn btn-warning orange-gradient-btn fs--1 mt-3">Enviar</button>
                   </div>
                 </form>
               </div>
@@ -397,6 +401,24 @@
           </div>
         </div><!-- end of .container-->
 
+        <!-- formulario de newsletter -->
+        <div class="container pt-7">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-10">
+              <h2 class="text-secondary text-center lh-1-7 mb-7">¿Querés estar al tanto de todo? </br> Dejanos tu mail y te avisaremos de los próximos viajes</h2>
+              <form class="row g-3 align-items-center w-lg-75 mx-auto">
+                <div class="col-sm">
+                  <div class="input-group-icon">
+                    <input class="form-control form-little-squirrel-control border border-warning inputFormularios" type="email" placeholder="email " aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17" alt="mail" />
+                  </div>
+                </div>
+                <div class="col-sm-auto text-center">
+                  <button class="btn btn-warning orange-gradient-btn fs--1 ">Suscribir</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
