@@ -16,7 +16,7 @@
 
 .btnHover:hover{
     opacity: .8 ;
-    color: #fff ;
+    color: #fff  ;
     transition: .3s;
 }
 
