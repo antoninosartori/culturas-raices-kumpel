@@ -24,6 +24,14 @@
     height: 100%;
 }
 
+.box-recomendation .card {
+    padding-left: 25px;
+}
+
+.recomendation-data {
+    max-height: 500px;
+}
+
 .card-img {
     margin: auto;
     width: 80px;
