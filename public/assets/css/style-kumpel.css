@@ -1,9 +1,23 @@
+.color-white{
+    color: #fff
+}
+
 .color-brown {
-    color:#947561;
+    color: #947561;
 }
 
 .color-lightbrown {
     color: #D69E47;
+}
+
+.bg-lightbrown {
+    background-color: #D69E47;
+}
+
+.btnHover:hover{
+    opacity: .8 ;
+    color: #fff ;
+    transition: .3s;
 }
 
 .box-recomendation {
@@ -21,4 +35,19 @@
     width: 40px;
     height: 40px;
     margin: 20px;
+}
+
+
+
+.inputFormularios {
+    padding: 10px ;
+    font-size: 20px ;
+}
+
+.inputFormularios::placeholder {
+    font-size: 20px;
+}
+
+.inputNewsletter {
+    padding-left: 40px ;
 }
