@@ -27,6 +27,10 @@
     transition: .3s;
 }
 
+.btnInicio:hover{
+    color: #D69E47;
+}
+
 .box-recomendation {
     height: 100%;
 }
@@ -76,14 +80,40 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .flecha{
-    font-size: 40px;
+    position: absolute;
+    font-size: 80px;
     cursor: pointer;
     user-select: none;
+    z-index: 10;
+    color:#181E4B  ;
+    border-radius: 5px;
+}
+.flecha:hover{
+    opacity: .7;
 }
 
+.flechaIzq{
+    left: 10px;
+}
+
+.flechaDer{
+    right: 10px;
+}
 .carruselImg{
-    height: 350px;
+    height: 450px;
+    width: 90vw;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.overlay{
+    position: absolute;
+
+    bottom: 0;
+    width: 100%;
+    height: 100px;
 }
