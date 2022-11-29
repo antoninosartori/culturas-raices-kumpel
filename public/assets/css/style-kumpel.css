@@ -2,6 +2,10 @@
     color: #fff
 }
 
+.colorBlue{
+    color: #181E4B;
+}
+
 .color-brown {
     color: #947561;
 }
@@ -12,6 +16,9 @@
 
 .bg-lightbrown {
     background-color: #D69E47;
+}
+.bg-blue {
+    background-color: #181E4B;
 }
 
 .btnHover:hover{
@@ -63,4 +70,20 @@
 .valijaImg{
     height: 400px;
     filter: drop-shadow(2px 3px 5px #000);
+}
+
+.carruselContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flecha{
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.carruselImg{
+    height: 350px;
 }
