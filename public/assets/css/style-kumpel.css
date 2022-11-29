@@ -30,6 +30,16 @@
 .btnInicio:hover{
     color: #D69E47;
 }
+.portada{position: relative;}
+.portada::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #fff, transparent);
+    z-index: 10;
+}
 
 .box-recomendation {
     height: 100%;
@@ -108,12 +118,4 @@
     width: 90vw;
     object-fit: cover;
     border-radius: 5px;
-}
-
-.overlay{
-    position: absolute;
-
-    bottom: 0;
-    width: 100%;
-    height: 100px;
 }
