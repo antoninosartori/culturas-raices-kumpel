@@ -35,7 +35,11 @@
 .btnInicio:hover{
     color: #D69E47;
 }
-.portada{position: relative;}
+.portada{
+    position: relative;
+    height: 100vh;
+}
+
 .portada::before{
     content: '';
     position: absolute;
