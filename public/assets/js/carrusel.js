@@ -7,9 +7,11 @@ const carruselImg = document.querySelector('.carruselImg')
 
 //agregar fotos aca
 const galeria = [
-    './assets/img/carrusel/blue-winter-7615217_1280.jpg',
-    './assets/img/carrusel/building-7616202_1280.jpg',
-    './assets/img/carrusel/netherlands-7617882_1280.jpg',
+    './assets/img/carrusel/grupocubacultural1.jpg',
+    './assets/img/carrusel/grupoAzc2022.jpg',
+    './assets/img/carrusel/grupoTucumanfolclorico.jpg',
+    './assets/img/carrusel/grupoenGualeguay.jpg',
+    './assets/img/carrusel/grupoenMontevideo.jpg',
 ];
 
 carruselImg.setAttribute('src', galeria[contador]);

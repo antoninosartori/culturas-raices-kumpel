@@ -93,7 +93,7 @@
 
 .carruselContainer{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     position: relative;
     overflow-x: hidden;
@@ -121,9 +121,9 @@
 }
 
 .carruselImg{
-    height: 450px;
+    height: 500px;
     width: 90vw;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 5px;
 }
 
