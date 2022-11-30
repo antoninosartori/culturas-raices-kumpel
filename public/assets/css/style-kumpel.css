@@ -143,6 +143,11 @@
     opacity: 1;
 }
 
+.nav-link{
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
 /* responsive */
 @media (max-width: 768px){
     .bg-holder{

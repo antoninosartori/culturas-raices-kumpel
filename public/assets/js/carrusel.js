@@ -7,7 +7,7 @@ const carruselImgTitle = document.querySelector('.carruselImg-title');
 
 //agregar fotos aca => ['url-de-la-foto-', 'titulo-de-la-foto'],
 const galeria = [
-    ['./assets/img/carrusel/grupocubacultural1.jpg','grupo en Cuba'],
+    ['./assets/img/carrusel/grupocubacultural1.jpg','grupo Cuba'],
     ['./assets/img/carrusel/grupoAzc2022.jpg','grupo en Azcuenaga'],
     ['./assets/img/carrusel/grupoTucumanfolclorico.jpg','grupo en Tucuman'],
     ['./assets/img/carrusel/grupoenGualeguay.jpg','grupo de Gualeguay'],
