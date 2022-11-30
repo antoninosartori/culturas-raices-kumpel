@@ -27,6 +27,11 @@
     transition: .3s;
 }
 
+.btnNavLink-contacto:hover{
+    background-color: #D69E47;
+    color: #fff;
+}
+
 .btnInicio:hover{
     color: #D69E47;
 }
