@@ -19504,7 +19504,7 @@ iframe {
   }
 }
 
-.hero-title:before {
+/* .hero-title:before {
   content: '';
   position: absolute;
   right: 0.9375rem;
@@ -19514,7 +19514,7 @@ iframe {
   background-image: url(../img/hero/shape.svg);
   background-size: contain;
   z-index: -1;
-}
+} */
 
 @media (min-width: 992px) {
   .hero-title:before {

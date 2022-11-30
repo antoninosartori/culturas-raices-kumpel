@@ -91,6 +91,7 @@
     justify-content: space-between;
     align-items: center;
     position: relative;
+    overflow-x: hidden;
 }
 
 .flecha{
@@ -113,6 +114,7 @@
 .flechaDer{
     right: 10px;
 }
+
 .carruselImg{
     height: 450px;
     width: 90vw;
