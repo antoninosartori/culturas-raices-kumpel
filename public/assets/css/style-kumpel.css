@@ -131,4 +131,8 @@
     .bg-holder{
         background-image: url('../img/hero/summer-beach-composition-for-background.jpg')!important;
     }
+
+    .shadow-blue{
+        filter: drop-shadow(1px 1px 1px #0306218b);
+    }
 }
