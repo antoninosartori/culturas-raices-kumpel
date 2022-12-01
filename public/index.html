@@ -333,43 +333,24 @@
             <div class="row justify-content-center">
               <div class="col-lg-8 col-md-10">
                 <h2 class="text-secondary lh-1-7 mb-7">¿Tenés dudas? <br> Contactate con nosotros</h2>
-                <form class="row g-3 align-items-center w-lg-75 mx-auto">
+                <form action="./assets/forms/contact_me.php" method="post" role="form"  class="row g-3 align-items-center w-lg-75 mx-auto php-email-form">
                   <div class="col-sm">
                     <div class="input-group-icon d-flex flex-column flex-md-row ">
-                      <input class="form-control form-little-squirrel-control inputNombre inputFormularios" type="text" placeholder="Nombre " aria-label="nombre" />
-                      <input class="form-control form-little-squirrel-control inputFormularios mt-3 mt-md-0" type="email" placeholder="Email " aria-label="email" />
+                      <input class="form-control form-little-squirrel-control inputNombre inputFormularios" name="name" id="name" type="text" placeholder="Nombre" aria-label="nombre" required/>
+                      <input class="form-control form-little-squirrel-control inputFormularios mt-3 mt-md-0" name="email" id="email" type="email" placeholder="Email" aria-label="email" required/>
                     </div>
                     <div class="input-group-icon d-flex mt-2"></div>
-                      <textarea class="container form-control form-little-squirrel-control inputMensaje inputFormularios" name="" id="" cols="30" rows="10" placeholder="Escriba su mensaje"></textarea>
+                      <textarea class="container form-control form-little-squirrel-control inputMensaje inputFormularios" name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje" required></textarea>
                     </div>
                   </div>
                   <div class="row-sm-auto">
-                    <button class="btn btn-warning orange-gradient-btn fs--1 mt-3 btnHover bg-lightbrown">Enviar</button>
+                    <button type="submit" class="btn btn-warning orange-gradient-btn fs--1 mt-3 btnHover bg-lightbrown">Enviar</button>
                   </div>
                 </form>
               </div>
             </div>
           </div>
-        </div><!-- end of .container-->
-
-        <!-- formulario de newsletter -->
-        <div class="container pt-7">
-          <div class="row justify-content-center">
-            <div class="col-lg-8 col-md-10">
-              <h2 class="text-secondary text-center lh-1-7 mb-7">¿Querés estar al tanto de todo? </br> Dejanos tu mail y te avisaremos de los próximos viajes</h2>
-              <form class="row g-3 align-items-center w-lg-75 mx-auto">
-                <div class="col-sm">
-                  <div class="input-group-icon">
-                    <input class="form-control form-little-squirrel-control border border-warning inputFormularios inputNewsletter" type="email" placeholder="email " aria-label="email" /><img class="input-box-icon" src="assets/img/cta/mail.svg" width="17" alt="mail" />
-                  </div>
-                </div>
-                <div class="col-sm-auto text-center">
-                  <button class="btn btn-warning orange-gradient-btn fs--1 btnHover bg-lightbrown">Suscribir</button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
+        </div><!-- end of .container-->        
       </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
