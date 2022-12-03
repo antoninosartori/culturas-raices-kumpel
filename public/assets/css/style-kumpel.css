@@ -217,7 +217,18 @@
 }
 
 /* responsive */
+@media (max-width: 1210px){
+    
+    .cardParagraph{
+        text-align: left!important;
+    }
+}
+
 @media (max-width: 768px){
+    
+    .cardParagraph{
+        text-align: center!important;
+    }
     .bg-holder{
         background-image: url('../img/hero/summer-beach-composition-for-background.jpg')!important;
     }

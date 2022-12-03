@@ -1,9 +1,9 @@
 //seleccion del textarea mensaje
 const inputTextArea = document.querySelector('.inputMensaje');
 //seleccion de cards
-const destinoCard1 = document.querySelector('#destino1');
+/* const destinoCard1 = document.querySelector('#destino1');
 const destinoCard2 = document.querySelector('#destino2');
-const destinoCard3 = document.querySelector('#destino3');
+const destinoCard3 = document.querySelector('#destino3'); */
 
 let destinos = document.querySelectorAll('.destinos');
 
