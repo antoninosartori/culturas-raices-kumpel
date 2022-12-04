@@ -196,11 +196,13 @@
 
 .php-email-form .error-message {
     display: none;
-    color: #c31f09;
+    color: #fff;
+    background-color: #c31f09;
     text-align: center;
     padding: 15px;
     font-weight: 600;
     font-size: 18px;
+    border-radius: 10px;
 }
 
 .error-message br + br {
@@ -210,10 +212,12 @@
 .php-email-form .sent-message {
     display: none;
     color: #fff;
-    background: #18d26e;
+    background-color: #18d26e;
     text-align: center;
     padding: 15px;
     font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
 }
 
 /* responsive */
