@@ -1,3 +1,7 @@
+.text-shadow-blue {
+    text-shadow: #181E4B 0px 2px 2px;
+}
+
 .color-white{
     color: #fff
 }
@@ -152,7 +156,7 @@
 
 .nav-item a {
     font-size: 18px;
-    padding: 12px;
+    padding: 12px 16px;
     width: 100%;
 }
 
