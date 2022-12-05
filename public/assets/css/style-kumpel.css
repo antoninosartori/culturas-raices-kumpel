@@ -272,4 +272,9 @@
     .shadow-blue{
         filter: drop-shadow(1px 1px 1px #0306218b);
     }
+
+    .logo-footer {
+        display: flex;
+        justify-content: center;
+    }
 }
