@@ -147,6 +147,13 @@
     padding-left: 0!important;
     padding-right: 0!important;
 }
+
+.nav-item a {
+    font-size: 18px;
+    padding: 12px;
+}
+
+
 .php-email-form .loading {
     display: none;
     background: #fff;
@@ -165,6 +172,15 @@
     border-top-color: #eee;
     -webkit-animation: animate-loading 1s linear infinite;
     animation: animate-loading 1s linear infinite;
+}
+
+.icon-group .icon-item {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-group .icon-item a svg {
+    font-size: 2rem;
 }
 
 @-webkit-keyframes animate-loading {
