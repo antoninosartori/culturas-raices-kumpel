@@ -18,7 +18,7 @@ destinos.forEach(destino => {
 }) */
 
 function fillTextArea(destino, dias){
-    inputTextArea.textContent = `Hola! Quisiera obtener mas informacion sobre el paquete a ${destino} de ${dias} dias`;
+    inputTextArea.textContent = `Hola! Quisiera obtener mas informacion sobre el paquete a ${destino.toUpperCase()} con las salidas en ${dias}`;
 }
 
 /* destinoCard1.addEventListener('click', () => {

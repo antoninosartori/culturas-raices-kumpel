@@ -11,9 +11,12 @@ async function getDestinos () {
 
 // funcion constructora de cards
 function createCard(destinos) {
-    destinos.map(destino => {
+    const destinosLength = destinos.length;
+    
+    destinos.map(destino => {        
         const divDestinos = document.createElement('div');
-        divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-4','mb-4');
+        if(destinosLength < 3){divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-4','mb-4');}
+        else{divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-6','mb-4');}
 
         const divCard = document.createElement('div');
         divCard.classList.add('card', 'overflow-hidden', 'shadow');
@@ -42,12 +45,12 @@ function createCard(destinos) {
         h4Title.classList.add('text-secondary' ,'fw-medium');
 
         const aTitleContent = document.createElement('a');
-        aTitleContent.classList.add('link-900', 'text-decoration-none', 'stretched-link');
+        aTitleContent.classList.add('link-900', 'text-decoration-none', 'stretched-link', 'fw-bold');
         aTitleContent.href = "#contacto";
         aTitleContent.textContent = destino.title;
 
         const divLocationContainer = document.createElement('div');
-        divLocationContainer.classList.add('d-flex', 'flex-row' , /* 'flex-lg-row', */'justify-content-between', 'mb-3')
+        divLocationContainer.classList.add('d-flex', 'flex-row' , /* 'flex-lg-row', */'justify-content-between', 'mb-1')
 
         const h4Location = document.createElement('h4');
         h4Location.classList.add('text-secondary' ,'fw-medium');
@@ -59,10 +62,6 @@ function createCard(destinos) {
 
         const divInfoCard = document.createElement('div');
         divInfoCard.classList.add('d-flex' ,'align-items-center');
-
-        /* const spanDateTravel = document.createElement('span');
-        spanDateTravel.classList.add('fs-0', 'fw-medium');
-        spanDateTravel.textContent = `${destino.travel_date}`; */
 
         const divDateTravel = document.createElement('div');
         divDateTravel.classList.add('d-flex', 'flex-column');
@@ -86,7 +85,7 @@ function createCard(destinos) {
         destinosContainer.append(divDestinos)
 
         divCard.addEventListener('click', () => {
-            fillTextArea(destino.title, destino.days)
+            fillTextArea(destino.title, destino.travel_date)
         })
     })
 }
