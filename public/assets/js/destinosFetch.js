@@ -62,6 +62,10 @@ function createCard(destinos) {
         divCard.append(imgDestino,divCardBody,divCardBtn)
         divDestinos.append(divCard)
         destinosContainer.append(divDestinos)
+
+        divCard.addEventListener('click', () => {
+            fillTextArea(destino.title, destino.days)
+        })
     })
 }
 
