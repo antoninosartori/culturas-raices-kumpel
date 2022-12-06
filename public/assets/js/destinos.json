@@ -4,27 +4,31 @@
         "title": "Sabor a Colombia",
         "locations": "Medellin, Bogota, Cartagena",
         "image": "./public/assets/img/destinos/colombia-pqt-2023.jpg",
-        "days": 16
+        "days": 16,
+        "travel_date": ["19 de marzo"]
     },
     {
         "id": 1,
         "title": "Villa Gesell",
         "locations": "Buenos Aires",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg/1920px-Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg",
-        "days": 10
+        "days": 10,
+        "travel_date": ["Enero: 07-12–17–22","6 de Febrero"]
     },
     {
         "id": 2,
         "title": "Mar del Plata",
         "locations": "Buenos Aires",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stensj%C3%B6lejon_i_Mar_del_Plata.jpg/1280px-Stensj%C3%B6lejon_i_Mar_del_Plata.jpg",
-        "days": 10
+        "days": 10,
+        "travel_date": ["Enero: 04–09–14–19–24","Febrero 03–08–13–21"]
     },
     {
         "id": 3,
         "title": "Las Grutas",
         "locations": "Rio Negro",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/M%C3%89DANOS_.jpg/800px-M%C3%89DANOS_.jpg",
-        "days": 10
+        "days": 10,
+        "travel_date": ["9 - 23 de Enero","6 de Febrero"]
     }
     ]

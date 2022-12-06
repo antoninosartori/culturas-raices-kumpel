@@ -13,7 +13,7 @@ async function getDestinos () {
 function createCard(destinos) {
     destinos.map(destino => {
         const divDestinos = document.createElement('div');
-        divDestinos.classList.add('destinos', 'col-md-4', 'mb-4');
+        divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-4','mb-4');
 
         const divCard = document.createElement('div');
         divCard.classList.add('card', 'overflow-hidden', 'shadow');
@@ -34,7 +34,7 @@ function createCard(destinos) {
         aBtnQuieroDestino.href = "#contacto";
         aBtnQuieroDestino.role = "button";
         aBtnQuieroDestino.textContent = '¡Quiero este viaje!';
-//
+
         const divTitleContainer = document.createElement('div');
         divTitleContainer.classList.add('d-flex', 'flex-column', /* 'flex-lg-row', */'justify-content-between', 'mb-3')
 
@@ -45,7 +45,7 @@ function createCard(destinos) {
         aTitleContent.classList.add('link-900', 'text-decoration-none', 'stretched-link');
         aTitleContent.href = "#contacto";
         aTitleContent.textContent = destino.title;
-//
+
         const divLocationContainer = document.createElement('div');
         divLocationContainer.classList.add('d-flex', 'flex-row' , /* 'flex-lg-row', */'justify-content-between', 'mb-3')
 
@@ -60,11 +60,21 @@ function createCard(destinos) {
         const divInfoCard = document.createElement('div');
         divInfoCard.classList.add('d-flex' ,'align-items-center');
 
-        const spanDays = document.createElement('span');
-        spanDays.classList.add('fs-0', 'fw-medium');
-        spanDays.textContent = `${destino.days} dias`;
+        /* const spanDateTravel = document.createElement('span');
+        spanDateTravel.classList.add('fs-0', 'fw-medium');
+        spanDateTravel.textContent = `${destino.travel_date}`; */
 
-        divInfoCard.append(spanDays)
+        const divDateTravel = document.createElement('div');
+        divDateTravel.classList.add('d-flex', 'flex-column');
+
+        destino.travel_date.map(date => {
+            const spanDateTravel = document.createElement('span');
+            spanDateTravel.classList.add('fs-0', 'fw-medium');
+            spanDateTravel.textContent = `${date}`;
+            divDateTravel.append(spanDateTravel);
+        })
+
+        divInfoCard.append(divDateTravel)
         h4Title.append(aTitleContent)
         divTitleContainer.append(h4Title)
         h4Location.append(aLocationContent)

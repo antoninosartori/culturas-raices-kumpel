@@ -244,6 +244,9 @@
 }
 
 /* destinos */
+#destinosContainer .card{
+    height: 600px;
+}
 
 .imgDestino{
     height: 350px;
