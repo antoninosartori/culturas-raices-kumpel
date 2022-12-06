@@ -15,7 +15,7 @@ function createCard(destinos) {
     
     destinos.map(destino => {        
         const divDestinos = document.createElement('div');
-        if(destinosLength < 3){divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-4','mb-4');}
+        if(destinosLength <= 3){divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-4','mb-4');}
         else{divDestinos.classList.add('destinos', 'col-md-6', 'col-lg-6','mb-4');}
 
         const divCard = document.createElement('div');
