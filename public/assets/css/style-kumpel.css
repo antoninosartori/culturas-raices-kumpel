@@ -243,6 +243,15 @@
     border-radius: 10px;
 }
 
+/* destinos */
+
+.imgDestino{
+    height: 350px;
+    object-fit: cover;
+}
+
+/* fin de destinos */
+
 /* responsive */
 @media (max-width: 1210px){
     

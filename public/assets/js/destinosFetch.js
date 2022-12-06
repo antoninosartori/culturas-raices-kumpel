@@ -19,9 +19,10 @@ function createCard(destinos) {
         divCard.classList.add('card', 'overflow-hidden', 'shadow');
 
         const imgDestino = document.createElement('img');
-        imgDestino.classList.add('card-img-top');
+        imgDestino.classList.add('card-img-top', 'imgDestino');
         imgDestino.src = destino.image;
         imgDestino.alt = destino.title;
+        
 
         const divCardBody = document.createElement('div');
         divCardBody.classList.add('card-body', 'py-4', 'px-3');
@@ -57,7 +58,7 @@ function createCard(destinos) {
         h4Title.append(aTitleContent)
         divTitleContainer.append(h4Title)
         divCardBody.append(divTitleContainer, divInfoCard);
-        divCardBody.append(aBtnQuieroDestino)
+        divCardBtn.append(aBtnQuieroDestino)
         divCard.append(imgDestino,divCardBody,divCardBtn)
         divDestinos.append(divCard)
         destinosContainer.append(divDestinos)
