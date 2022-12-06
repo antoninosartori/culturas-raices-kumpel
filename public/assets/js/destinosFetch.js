@@ -22,7 +22,6 @@ function createCard(destinos) {
         imgDestino.classList.add('card-img-top', 'imgDestino');
         imgDestino.src = destino.image;
         imgDestino.alt = destino.title;
-        
 
         const divCardBody = document.createElement('div');
         divCardBody.classList.add('card-body', 'py-4', 'px-3');
@@ -35,9 +34,9 @@ function createCard(destinos) {
         aBtnQuieroDestino.href = "#contacto";
         aBtnQuieroDestino.role = "button";
         aBtnQuieroDestino.textContent = '¡Quiero este viaje!';
-
+//
         const divTitleContainer = document.createElement('div');
-        divTitleContainer.classList.add('d-flex', 'flex-column', 'flex-lg-row','justify-content-between', 'mb-3')
+        divTitleContainer.classList.add('d-flex', 'flex-column', /* 'flex-lg-row', */'justify-content-between', 'mb-3')
 
         const h4Title = document.createElement('h4');
         h4Title.classList.add('text-secondary' ,'fw-medium');
@@ -46,6 +45,17 @@ function createCard(destinos) {
         aTitleContent.classList.add('link-900', 'text-decoration-none', 'stretched-link');
         aTitleContent.href = "#contacto";
         aTitleContent.textContent = destino.title;
+//
+        const divLocationContainer = document.createElement('div');
+        divLocationContainer.classList.add('d-flex', 'flex-row' , /* 'flex-lg-row', */'justify-content-between', 'mb-3')
+
+        const h4Location = document.createElement('h4');
+        h4Location.classList.add('text-secondary' ,'fw-medium');
+
+        const aLocationContent = document.createElement('a');
+        aLocationContent.classList.add('locationCard','link-900', 'text-decoration-none', 'fs-1');
+        aLocationContent.href = "#contacto";
+        aLocationContent.textContent = destino.locations;
 
         const divInfoCard = document.createElement('div');
         divInfoCard.classList.add('d-flex' ,'align-items-center');
@@ -57,7 +67,9 @@ function createCard(destinos) {
         divInfoCard.append(spanDays)
         h4Title.append(aTitleContent)
         divTitleContainer.append(h4Title)
-        divCardBody.append(divTitleContainer, divInfoCard);
+        h4Location.append(aLocationContent)
+        divLocationContainer.append(h4Location)
+        divCardBody.append(divTitleContainer,divLocationContainer, divInfoCard);
         divCardBtn.append(aBtnQuieroDestino)
         divCard.append(imgDestino,divCardBody,divCardBtn)
         divDestinos.append(divCard)
