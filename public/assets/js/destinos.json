@@ -3,7 +3,7 @@
         "id": 0,
         "title": "Sabor a Colombia",
         "locations": "Medellin, Bogota, Cartagena",
-        "image": "./public/assets/img/destinos/colombia-pqt-2023.jpg",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg/1280px-View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg",
         "days": 16,
         "travel_date": ["19 de marzo"]
     },
