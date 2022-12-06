@@ -251,15 +251,19 @@
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 992px){
     .nav-item {
         width: 100%;
         margin-bottom: 10px;
     }
 
-    .nav-item a {
+    /* .nav-item a {
         width: 100%;
-    }
+    } */
+}
+
+@media (max-width: 768px){
+
 
     .cardParagraph{
         text-align: center!important;
