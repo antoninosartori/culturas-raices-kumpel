@@ -250,10 +250,16 @@
     object-fit: cover;
 }
 
+.locationCard{
+    padding-left: 20px;
+}
+
 .locationCard::before{
     content: url('../img/icons/location-dot-solid.svg');
     display:block;
-    width: 10px;
+    position: absolute;
+
+    width: 15px;
 }
 
 /* fin de destinos */
