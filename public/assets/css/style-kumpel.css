@@ -269,7 +269,7 @@
 
 /* nosotros MODELO 3 */
 #nosotros{
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .nosotrosParrafo{
