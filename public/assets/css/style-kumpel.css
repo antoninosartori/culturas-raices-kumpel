@@ -267,6 +267,18 @@
 
 /* fin de destinos */
 
+/* nosotros MODELO 3 */
+
+.nosotrosParrafo{
+    font-family: 'Volkhov';
+}
+
+.nosotrosImage{
+    border-radius: 150px;
+    filter: drop-shadow(1px 1px 4px #000);
+}
+
+/* fin de nosotros */
 /* responsive */
 @media (max-width: 1210px){
     
