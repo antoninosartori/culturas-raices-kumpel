@@ -4,7 +4,7 @@ const destinosContainer = document.querySelector('#destinosContainer');
 // llamado a la api 
 async function getDestinos () {
     const fetchJson = await fetch('./public/assets/js/destinos.json');
-    const response = await fetchJson.json()
+    const response = await fetchJson.json();
 
     createCard(response)
 }
@@ -90,4 +90,4 @@ function createCard(destinos) {
     })
 }
 
-getDestinos()
+getDestinos();
