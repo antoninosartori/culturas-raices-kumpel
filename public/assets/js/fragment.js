@@ -45,9 +45,16 @@ const pintarCardsDestinos = destinos => {
         templateCard.querySelector('.card-img-top').alt = destino.title;
         templateCard.querySelector('.card-title').textContent = destino.title;
         templateCard.querySelector('.card-title-locations').textContent = destino.locations;
-        templateCard.querySelector('.card-date').textContent = destino.travel_date;
+        const divDateTravel = templateCard.querySelector('.card-date');
+        divDateTravel.textContent = '';
+        destino.travel_date.map(date => {
+            //  templateCard.querySelector('.card-date').textContent = date
+            const spanDateTravel = document.createElement('span');
+            spanDateTravel.classList.add('fs-0', 'fw-medium');
+            spanDateTravel.textContent = `${date}`;
+            divDateTravel.append(spanDateTravel);
+        })
 
-        console.log(destino)
 
 
         const clone = templateCard.cloneNode(true)
