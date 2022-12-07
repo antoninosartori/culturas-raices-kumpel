@@ -1,5 +1,5 @@
 .text-shadow-blue {
-    text-shadow: #181E4B 0px 2px 2px;
+    text-shadow: #181E4B 0px 2px 0px;
 }
 
 .color-white{
@@ -49,7 +49,7 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100px;
+    height: 200px;
     background: linear-gradient(to top, #fff, transparent);
     z-index: 10;
 }
