@@ -1,4 +1,4 @@
-let destinos = [
+/* let destinos = [
     {
         "id": 0,
         "title": "Sabor a Colombia",
@@ -31,16 +31,30 @@ let destinos = [
         "days": 10,
         "travel_date": ["9 - 23 de Enero","6 de Febrero"]
     }
-]
-;
-
+];
+ */
 const destinosDiv = document.querySelector('#destinosContainer');
 const templateCard = document.getElementById('template-card').content;
 const fragment = document.createDocumentFragment();
 
+async function getDestinos() {
+    const dataFetch = await fetch('./public/assets/js/destinos.json');
+    const response = await dataFetch.json();
+
+    pintarCardsDestinos(response)
+}
 
 const pintarCardsDestinos = destinos => {
-    destinos.forEach(destino => {
+
+    let destinoLength = destinos.length
+    destinos.map(destino => {
+        
+        if(destinoLength <= 3){
+            templateCard.querySelector('.destinos').classList.add('col-md-6', 'col-lg-4', 'mb-4');
+        } else{
+            templateCard.querySelector('.destinos').classList.add('col-md-6', 'col-lg-6', 'mb-4');
+        }
+
         templateCard.querySelector('.card-img-top').src = destino.image;
         templateCard.querySelector('.card-img-top').alt = destino.title;
         templateCard.querySelector('.card-title').textContent = destino.title;
@@ -56,16 +70,19 @@ const pintarCardsDestinos = destinos => {
         })
 
 
-
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
     });
 
     destinosDiv.append(fragment)
-    let cardDestiny = templateCard.querySelector('.card-destiny');
-    cardDestiny.addEventListener('click', () => {
-        fillTextArea(destino.title, destino.days)
+    let cards = document.querySelectorAll('.card-destiny .card-body');
+    cards.forEach(card => {
+        card.addEventListener('click', () => {
+            let title = card.querySelector('.card-title').textContent;
+            
+            fillTextArea(title);
+        })
     })
 }
 
-pintarCardsDestinos(destinos)
+getDestinos()
