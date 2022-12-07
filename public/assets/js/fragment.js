@@ -1,4 +1,4 @@
-[
+let destinos = [
     {
         "id": 0,
         "title": "Sabor a Colombia",
@@ -32,3 +32,33 @@
         "travel_date": ["9 - 23 de Enero","6 de Febrero"]
     }
 ]
+;
+
+const destinosDiv = document.querySelector('#destinosContainer');
+const templateCard = document.getElementById('template-card').content;
+const fragment = document.createDocumentFragment();
+
+
+const pintarCardsDestinos = destinos => {
+    destinos.forEach(destino => {
+        templateCard.querySelector('.card-img-top').src = destino.image;
+        templateCard.querySelector('.card-img-top').alt = destino.title;
+        templateCard.querySelector('.card-title').textContent = destino.title;
+        templateCard.querySelector('.card-title-locations').textContent = destino.locations;
+        templateCard.querySelector('.card-date').textContent = destino.travel_date;
+
+        console.log(destino)
+
+
+        const clone = templateCard.cloneNode(true)
+        fragment.appendChild(clone)
+    });
+
+    destinosDiv.append(fragment)
+    let cardDestiny = templateCard.querySelector('.card-destiny');
+    cardDestiny.addEventListener('click', () => {
+        fillTextArea(destino.title, destino.days)
+    })
+}
+
+pintarCardsDestinos(destinos)
