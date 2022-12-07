@@ -268,6 +268,9 @@
 /* fin de destinos */
 
 /* nosotros MODELO 3 */
+#nosotros{
+    overflow-x: hidden;
+}
 
 .nosotrosParrafo{
     font-family: 'Volkhov';
