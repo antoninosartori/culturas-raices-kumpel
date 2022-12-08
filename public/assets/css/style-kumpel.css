@@ -261,8 +261,19 @@
     content: url('../img/icons/location-dot-solid.svg');
     display:block;
     position: absolute;
-
     width: 15px;
+}
+
+.card-date{
+    padding-left: 20px;
+}
+
+.card-date::before{
+    content: url('../img/icons/calendar-days-solid.svg');
+    display:block;
+    position: absolute;
+    width: 15px;
+    left: 16px;
 }
 
 /* fin de destinos */

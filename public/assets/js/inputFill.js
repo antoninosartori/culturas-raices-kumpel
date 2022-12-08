@@ -18,15 +18,5 @@ destinos.forEach(destino => {
 }) */
 
 function fillTextArea(destino){
-    inputTextArea.textContent = `Hola! Quisiera obtener mas informacion sobre el paquete a ${destino.toLowerCase()}`;
+    inputTextArea.textContent = `Hola! Quisiera obtener mas informacion sobre el paquete a ${destino.toUpperCase()}`;
 }
-
-/* destinoCard1.addEventListener('click', () => {
-    fillTextArea('Roma');
-})
-destinoCard2.addEventListener('click', () => {
-    fillTextArea('Londres');
-})
-destinoCard3.addEventListener('click', () => {
-    fillTextArea('Europa completo');
-}) */
