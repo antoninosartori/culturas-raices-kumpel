@@ -4,6 +4,7 @@ const fragment = document.createDocumentFragment();
 //btn
 const btnNacional = document.querySelector('.btnNacional');
 const btnInternacional = document.querySelector('.btnInternacional');
+const btnAll = document.querySelector('.btnAll');
 
 async function getDestinos() {
     const dataFetch = await fetch('./public/assets/js/destinos.json');
@@ -23,12 +24,17 @@ btnInternacional.addEventListener('click', () => {
     pintarCardsDestinos(isInternacional)
 })
 
+btnAll.addEventListener('click', () => {
+    pintarCardsDestinos(destinosArray)
+})
+
 const pintarCardsDestinos = destinos => {
     destinosDiv.textContent = '';
     let destinoLength = destinos.length
     destinos.map(destino => {
-        
-        if(destinoLength <= 3){
+        if(destinoLength === 1){
+            templateCard.querySelector('.destinos').classList.add('m-auto','col-md-6', 'col-lg-4', 'mb-4');
+        } else if(destinoLength <= 3){
             templateCard.querySelector('.destinos').classList.add('col-md-6', 'col-lg-4', 'mb-4');
         } else{
             templateCard.querySelector('.destinos').classList.add('col-md-6', 'col-lg-6', 'mb-4');
