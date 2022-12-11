@@ -36,6 +36,20 @@
     color: #fff;
 }
 
+.btnAll:hover, .btnNacional:hover, .btnInternacional:hover{
+    color: #D69E47;
+    opacity: .8;
+}
+
+.btnFilterActive{
+    background-color: #D69E47;
+    color: #fff;
+}
+.btnFilterActive:hover{
+    background-color: #D69E47;
+    color: #fff;
+}
+
 .btnInicio:hover{
     color: #D69E47;
 }

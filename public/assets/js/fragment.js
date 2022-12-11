@@ -11,22 +11,37 @@ async function getDestinos() {
     const response = await dataFetch.json();
 
     pintarCardsDestinos(response)
-    return destinosArray = response
+    return destinosArray = response;
 }
 
 btnNacional.addEventListener('click', () => {
     let isNacional = destinosArray.filter(destino => destino.isNacional);
     pintarCardsDestinos(isNacional)
+
+    btnNacional.classList.add('btnFilterActive')
+    btnInternacional.classList.remove('btnFilterActive')
+    btnAll.classList.remove('btnFilterActive')
 })
 
 btnInternacional.addEventListener('click', () => {
     let isInternacional = destinosArray.filter(destino => !destino.isNacional);
     pintarCardsDestinos(isInternacional)
+
+    btnNacional.classList.remove('btnFilterActive')
+    btnInternacional.classList.add('btnFilterActive')
+    btnAll.classList.remove('btnFilterActive')
 })
 
 btnAll.addEventListener('click', () => {
-    pintarCardsDestinos(destinosArray)
+    btnAll.classList.toggle('btnFilterActive');
+    pintarCardsDestinos(destinosArray);
+
+    btnNacional.classList.remove('btnFilterActive')
+    btnInternacional.classList.remove('btnFilterActive')
+    btnAll.classList.add('btnFilterActive')
 })
+
+
 
 const pintarCardsDestinos = destinos => {
     destinosDiv.textContent = '';
