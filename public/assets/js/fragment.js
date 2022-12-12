@@ -15,30 +15,42 @@ async function getDestinos() {
 }
 
 btnNacional.addEventListener('click', () => {
+    let scrollY = window.scrollY;
+    
     let isNacional = destinosArray.filter(destino => destino.isNacional);
-    pintarCardsDestinos(isNacional)
+    pintarCardsDestinos(isNacional);
 
-    btnNacional.classList.add('btnFilterActive')
-    btnInternacional.classList.remove('btnFilterActive')
-    btnAll.classList.remove('btnFilterActive')
+    btnNacional.classList.add('btnFilterActive');
+    btnInternacional.classList.remove('btnFilterActive');
+    btnAll.classList.remove('btnFilterActive');
+
+    window.scrollTo(0, scrollY);
 })
 
 btnInternacional.addEventListener('click', () => {
+    let scrollY = window.scrollY;
+    
     let isInternacional = destinosArray.filter(destino => !destino.isNacional);
-    pintarCardsDestinos(isInternacional)
+    pintarCardsDestinos(isInternacional);
 
-    btnNacional.classList.remove('btnFilterActive')
-    btnInternacional.classList.add('btnFilterActive')
-    btnAll.classList.remove('btnFilterActive')
+    btnNacional.classList.remove('btnFilterActive');
+    btnInternacional.classList.add('btnFilterActive');
+    btnAll.classList.remove('btnFilterActive');
+
+    window.scrollTo(0, scrollY);
 })
 
 btnAll.addEventListener('click', () => {
+    let scrollY = window.scrollY;
+    
     btnAll.classList.toggle('btnFilterActive');
     pintarCardsDestinos(destinosArray);
 
-    btnNacional.classList.remove('btnFilterActive')
-    btnInternacional.classList.remove('btnFilterActive')
-    btnAll.classList.add('btnFilterActive')
+    btnNacional.classList.remove('btnFilterActive');
+    btnInternacional.classList.remove('btnFilterActive');
+    btnAll.classList.add('btnFilterActive');
+
+    window.scrollTo(0, scrollY);
 })
 
 
