@@ -14,6 +14,10 @@
     color: #947561;
 }
 
+.bg-brown {
+    background-color: #947561 ;
+}
+
 .color-lightbrown {
     color: #D69E47;
 }
@@ -21,17 +25,23 @@
 .bg-lightbrown {
     background-color: #D69E47;
 }
+
 .bg-blue {
     background-color: #181E4B;
 }
 
 .btnHover:hover{
     opacity: .8 ;
-    color: #fff  ;
+    color: #ffff ;
     transition: .3s;
 }
 
-.btnNavLink-contacto:hover{
+.btn-blog:hover {
+    background-color: #181E4B;
+    color: #ffff;
+}
+
+.btnNavLink-contacto:hover, .btnNavLink-paquetes:hover, .btnNavLink-nosotros:hover{
     background-color: #D69E47;
     color: #fff;
 }
