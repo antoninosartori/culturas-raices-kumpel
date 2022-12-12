@@ -4,7 +4,7 @@
         "title": "Sabor a Colombia - Colombia Cultural",
         "locations": "Bogotá, Quindío eje cafetero, Medellin, Cartagena",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg/1280px-View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg",
-        "days": 16,
+        "days": "16",
         "travel_date": ["19 de Marzo"],
         "isNacional": false
     },
@@ -13,7 +13,7 @@
         "title": "Semana Santa - Salta Premium",
         "locations": "Salta, Cafayate, Molinos, Cachi",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg/1920px-Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg",
-        "days": 7,
+        "days": "7",
         "travel_date": ["2 de Abril"],
         "isNacional": true
     },
@@ -22,7 +22,7 @@
         "title": "Excursion en Privado",
         "locations": "Córdoba Premium",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stensj%C3%B6lejon_i_Mar_del_Plata.jpg/1280px-Stensj%C3%B6lejon_i_Mar_del_Plata.jpg",
-        "days": 10,
+        "days": "10",
         "travel_date": ["Consultar fechas en Enero"],
         "isNacional": true
     },
@@ -31,7 +31,7 @@
         "title": "Grupal Acompañada - Cuba - 10 noches y 11 días",
         "locations": "Habana, Cayo Santa María, Varadero",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/%22Amanecer_en_Las_Grutas%22.jpg/800px-%22Amanecer_en_Las_Grutas%22.jpg",
-        "days": 10,
+        "days": "10",
         "travel_date": ["5 de Mayo"],
         "isNacional": true
     }

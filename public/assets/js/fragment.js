@@ -80,6 +80,12 @@ const pintarCardsDestinos = destinos => {
             divDateTravel.append(spanDateTravel);
         })
 
+        const spanDaysTravel = document.createElement('span');
+        spanDaysTravel.classList.add('fs-0','fw-medium');
+        spanDaysTravel.textContent = `${destino.days}`;
+        divDateTravel.append(spanDaysTravel);
+
+
 
         const clone = templateCard.cloneNode(true)
         fragment.appendChild(clone)
