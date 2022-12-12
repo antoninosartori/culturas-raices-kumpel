@@ -75,7 +75,7 @@ const pintarCardsDestinos = destinos => {
         divDateTravel.textContent = '';
         destino.travel_date.map(date => {
             const spanDateTravel = document.createElement('span');
-            spanDateTravel.classList.add('fs-0', 'fw-medium ');
+            spanDateTravel.classList.add('fs-0', 'fw-medium', 'ms-2');
             spanDateTravel.textContent = `${date}`;
             divDateTravel.append(spanDateTravel);
         })
