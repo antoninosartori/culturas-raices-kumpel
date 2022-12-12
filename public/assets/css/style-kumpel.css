@@ -63,6 +63,7 @@
 .btnInicio:hover{
     color: #D69E47;
 }
+
 .portada{
     position: relative;
     height: 100vh;
@@ -123,6 +124,10 @@
 .valijaImg{
     height: 400px;
     filter: drop-shadow(2px 3px 5px #000);
+}
+
+.span-days {
+    width: 200px;
 }
 
 .carruselContainer{
@@ -298,6 +303,7 @@
     position: absolute;
     width: 15px;
     left: 16px;
+    right: 20px;
 }
 
 /* fin de destinos */
