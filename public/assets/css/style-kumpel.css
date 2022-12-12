@@ -295,6 +295,7 @@
 
 .card-date{
     padding-left: 20px;
+    width: 300px;
 }
 
 .card-date::before{
