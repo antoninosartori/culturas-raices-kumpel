@@ -82,7 +82,7 @@ const pintarCardsDestinos = destinos => {
 
         const spanDaysTravel = document.createElement('span');
         spanDaysTravel.classList.add('fs-0','fw-medium');
-        spanDaysTravel.textContent = `${destino.days}`;
+        spanDaysTravel.textContent = `${destino.days} dias`;
         divDateTravel.append(spanDaysTravel);
 
 
