@@ -318,7 +318,7 @@
     content: url('../img/icons/sun-solid.svg');
     display:block;
     position: absolute;
-    width: 15px;
+    width: 16px;
     left: -20px;
     top: 1px;
 }
@@ -331,7 +331,9 @@
 }
 
 .nosotrosParrafo{
-    font-family: 'Volkhov';
+    /* font-family: 'Volkhov'; */
+    font-family: 'Poppins';
+    
 }
 
 .nosotrosImage{
