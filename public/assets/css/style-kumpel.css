@@ -295,16 +295,32 @@
 
 .card-date{
     padding-left: 20px;
-    width: 300px;
 }
 
-.card-date::before{
+.span-date, .span-days {
+    position: relative;
+}
+
+.span-date {
+    margin-right: 75px;
+}
+
+.span-date::before{
     content: url('../img/icons/calendar-days-solid.svg');
     display:block;
     position: absolute;
     width: 15px;
-    left: 16px;
-    right: 20px;
+    left: -25px;
+    top: 1px;
+}
+
+.span-days::before{
+    content: url('../img/icons/sun-solid.svg');
+    display:block;
+    position: absolute;
+    width: 15px;
+    left: -20px;
+    top: 1px;
 }
 
 /* fin de destinos */
