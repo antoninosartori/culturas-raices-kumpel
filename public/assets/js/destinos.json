@@ -5,25 +5,25 @@
         "locations": "Cayo Coco, La Habana, Varadero",
         "image": "https://mediaim.expedia.com/destination/1/4655364ec5c7e6e1f1631c482ffee852.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
         "days": "13",
-        "travel_date": ["12, 19 y 26 de julio"],
+        "travel_date": ["12, 19 y 26 de Julio"],
         "isNacional": false
     },
     {
         "id": 1,
         "title": "Peru en Vacaciones",
         "locations": "Lima, Urubamba, Machu Pichu, Cusco",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/330px-Peru_Machu_Picchu_Sunrise.jpg",
+        "image": "https://source.unsplash.com/bDaqeARFTkA",
         "days": "7",
-        "travel_date": ["23 de julio"],
+        "travel_date": ["23 de Julio"],
         "isNacional": false
     },
     {
         "id": 2,
         "title": "Iguazú",
-        "locations": "Cataratas argentinas y brasileras",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg/480px-Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg",
+        "locations": "Cataratas Argentinas y Brasileras",
+        "image": "https://source.unsplash.com/VhrRkw0mgQw",
         "days": "4",
-        "travel_date": ["15 de julio"],
+        "travel_date": ["15 de Julio"],
         "isNacional": true
     },
     {
@@ -32,7 +32,7 @@
         "locations": "Chubut",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ecocentro_madryn.jpg/560px-Ecocentro_madryn.jpg",
         "days": "4",
-        "travel_date": ["24 de julio"],
+        "travel_date": ["24 de Julio"],
         "isNacional": true
     },
     {
@@ -41,7 +41,7 @@
         "locations": "Chubut",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Monumento_tehuelche_madryn.jpg/477px-Monumento_tehuelche_madryn.jpg",
         "days": "4",
-        "travel_date": ["17 de julio"],
+        "travel_date": ["17 de Julio"],
         "isNacional": true
     }
 ]
