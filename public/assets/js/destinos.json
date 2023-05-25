@@ -1,38 +1,47 @@
 [
     {
         "id": 0,
-        "title": "Sabor a Colombia - Colombia Cultural",
-        "locations": "Bogotá, Quindío eje cafetero, Medellin, Cartagena",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg/1280px-View_of_the_Cerro_Morrogacho_in_the_C%C3%B3cora_Valley.jpg",
-        "days": "16",
-        "travel_date": ["19 de Marzo"],
+        "title": "Cuba Vacation's Club",
+        "locations": "Cayo Coco, La Habana, Varadero",
+        "image": "https://mediaim.expedia.com/destination/1/4655364ec5c7e6e1f1631c482ffee852.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
+        "days": "13",
+        "travel_date": ["12, 19 y 26 de julio"],
         "isNacional": false
     },
     {
         "id": 1,
-        "title": "Semana Santa - Salta Premium",
-        "locations": "Salta, Cafayate, Molinos, Cachi",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg/1920px-Villa_Gesell_-_panoramio_-_VANT_Vistas_A%C3%A9reas_%285%29_%28cropped%29.jpg",
+        "title": "Peru en Vacaciones",
+        "locations": "Lima, Urubamba, Machu Pichu, Cusco",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Peru_Machu_Picchu_Sunrise.jpg/330px-Peru_Machu_Picchu_Sunrise.jpg",
         "days": "7",
-        "travel_date": ["2 de Abril"],
-        "isNacional": true
+        "travel_date": ["23 de julio"],
+        "isNacional": false
     },
     {
         "id": 2,
-        "title": "Excursion en Privado",
-        "locations": "Córdoba Premium",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Stensj%C3%B6lejon_i_Mar_del_Plata.jpg/1280px-Stensj%C3%B6lejon_i_Mar_del_Plata.jpg",
-        "days": "10",
-        "travel_date": ["Consultar fechas en Enero"],
+        "title": "Iguazú",
+        "locations": "Cataratas argentinas y brasileras",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg/480px-Foz_de_Igua%C3%A7u_27_Panorama_Nov_2005.jpg",
+        "days": "4",
+        "travel_date": ["15 de julio"],
         "isNacional": true
     },
     {
         "id": 3,
-        "title": "Grupal Acompañada - Cuba - 10 noches y 11 días",
-        "locations": "Habana, Cayo Santa María, Varadero",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/%22Amanecer_en_Las_Grutas%22.jpg/800px-%22Amanecer_en_Las_Grutas%22.jpg",
-        "days": "10",
-        "travel_date": ["5 de Mayo"],
+        "title": "Puerto Madryn",
+        "locations": "Chubut",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ecocentro_madryn.jpg/560px-Ecocentro_madryn.jpg",
+        "days": "4",
+        "travel_date": ["24 de julio"],
+        "isNacional": true
+    },
+    {
+        "id": 4,
+        "title": "Puerto Madryn con aéreos",
+        "locations": "Chubut",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Monumento_tehuelche_madryn.jpg/477px-Monumento_tehuelche_madryn.jpg",
+        "days": "4",
+        "travel_date": ["17 de julio"],
         "isNacional": true
     }
 ]

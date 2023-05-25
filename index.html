@@ -1,343 +1,724 @@
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- ===============================================-->
+        <!--    Document Title-->
+        <!-- ===============================================-->
+        <title>Culturas y Raices | Turismo</title>
 
+        <!-- ===============================================-->
+        <!--    Favicons-->
+        <!-- ===============================================-->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./public/assets/img/favicons/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./public/assets/img/favicons/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./public/assets/img/favicons/favicon-16x16.png"
+        />
+        <link
+            rel="shortcut icon"
+            type="image/x-icon"
+            href="./public/assets/img/logo/logoCyR.svg"
+        />
+        <link
+            rel="manifest"
+            href="./public/assets/img/favicons/manifest.json"
+        />
+        <meta
+            name="msapplication-TileImage"
+            content="./public/assets/img/favicons/mstile-150x150.png"
+        />
+        <meta name="theme-color" content="#ffffff" />
 
-    <!-- ===============================================-->
-    <!--    Document Title-->
-    <!-- ===============================================-->
-    <title>Culturas y Raices | Turismo</title>
+        <!-- ===============================================-->
+        <!--    Stylesheets-->
+        <!-- ===============================================-->
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <link href="./public/assets/css/theme.css" rel="stylesheet" />
+        <link href="./public/assets/css/style-kumpel.css" rel="stylesheet" />
+    </head>
 
-
-    <!-- ===============================================-->
-    <!--    Favicons-->
-    <!-- ===============================================-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./public/assets/img/favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./public/assets/img/favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./public/assets/img/favicons/favicon-16x16.png">
-    <link rel="shortcut icon" type="image/x-icon" href="./public/assets/img/logo/logoCyR.svg">
-    <link rel="manifest" href="./public/assets/img/favicons/manifest.json">
-    <meta name="msapplication-TileImage" content="./public/assets/img/favicons/mstile-150x150.png">
-    <meta name="theme-color" content="#ffffff">
-
-
-    <!-- ===============================================-->
-    <!--    Stylesheets-->
-    <!-- ===============================================-->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link href="./public/assets/css/theme.css" rel="stylesheet" />
-    <link href="./public/assets/css/style-kumpel.css" rel="stylesheet">
-  </head>
-
-
-  <body>
-
-    <!-- ===============================================-->
-    <!--    Main Content-->
-    <!-- ===============================================-->
-    <main class="main" id="top">
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
-      data-navbar-on-scroll="data-navbar-on-scroll">
-      <div class="container">
-        <a class="navbar-brand" href="index.html">
-          <img src="./public/assets/img/logo/logoCyR.svg" height="100" alt="logo" />
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
-            class="navbar-toggler-icon"> </span></button>
-        <div class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start">
-            <li class="nav-item px-3 px-xl-4"><a class="btn color-white bg-blue rounded fw-medium fs-2 btnNavLink-paquetes" aria-current="page"
-                href="#destinos">Paquetes</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="btn color-white bg-blue rounded fw-medium fs-2 btnNavLink-nosotros" aria-current="page"
-                href="#nosotros">Nosotros</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="btn color-white bg-blue  order-1 order-lg-0 fw-medium fs-2 rounded btnNavLink-contacto"
-                href="#contacto">Contactanos</a></li>
-            <li class="nav-item px-3 px-xl-4"><a class="btn btn-blog color-white bg-lightbrown  order-1 order-lg-0 fw-medium fs-2 rounded"
-              href="#">Blog</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <section class="portada" style="padding-top: 8rem;position: relative;">
-      <div class="bg-holder" style="background-image:url(./public/assets/img/hero/imagen-playa-web.jpeg);">
-      </div>
-      <!--/.bg-holder-->
-
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-5 col-lg-6 order-0 order-md-1 text-end"></div>
-          <div class="col-md-7 col-lg-6 text-md-start text-center py-6">
-            <h4 class="fw-bold  mb-3 color-white shadow-blue text-shadow-blue">Date el gusto</h4>
-            <h2 class="hero-title">Viajá, disfrutá y viví nuevas experiencias</h2>
-            <p class="mt-4 mb-4 fs-5 fw-medium color-white shadow-blue text-shadow-blue">Explorá nuestra galeria de viajes.</p>
-            <div class="text-center text-md-start"> <a
-                class="btnInicio btn btn-warning bg-white colorBlue btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow fw-bold" href="#destinos"
-                role="button">¡Quiero Viajar!</a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="pt-5 pt-md-9" id="service">
-
-        <div class="container">
-          <div class="position-absolute z-index--1 end-0 d-none d-lg-block"><img src="./public/assets/img/category/shape.svg" style="max-width: 200px" alt="service" /></div>
-          <div class="mb-8 text-center">
-            <h5 class="color-lightbrown">Categorías</h5>
-            <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">Nuestros servicios</h3>
-          </div>
-          <div class="row">
-            <div class="col-lg-4 col-sm-6 mb-6">
-              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-                <div class="card-body p-xxl-5 p-4" data-aos="fade-up"> 
-                  <img src="./public/assets/img/icons/holidays-vacation-travel-luggage-svgrepo-com.svg" width="60" height="60" alt="Viajes grupales" />
-                  <h4 class="mb-3 mt-3">Viajes</h4>
-                  <p class="mb-0 fw-medium">Grupales, individuales (nacionales e internacionales).</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-6">
-              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-                <div class="card-body p-xxl-5 p-4" data-aos="fade-up"> 
-                  <img src="./public/assets/img/icons/travel-persons.svg" width="60" height="60" alt="Comunidad" />
-                  <h4 class="mb-3 mt-3">Comunidad</h4>
-                  <p class="mb-0 fw-medium">Encuentros con gente viajera.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-sm-6 mb-6">
-              <div class="card service-card shadow-hover rounded-3 text-center align-items-center">
-                <div class="card-body p-xxl-5 p-4" data-aos="fade-up"> 
-                  <img src="./public/assets/img/icons/stethoscope-medical-heart-beats-control-tool-svgrepo-com.svg" width="60" height="60" alt="Asistencia al viajero" />
-                  <h4 class="mb-3 mt-3">Asistencia al viajero</h4>
-                  <p class="mb-0 fw-medium">Siempre hay un descuento para vos.</p>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-        </div>
-
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="pt-5 mt-5" id="destinos">
-
-        <div class="container">
-          <div class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"><img src="./public/assets/img/dest/shape.svg" alt="destinos" /></div>
-          <div class="mb-7 text-center">
-            <h5 class="color-lightbrown">Viajes</h5>
-            <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">Próximos destinos</h3>
-          </div>
-          <div class="d-flex  gap-1 py-2 justify-content-center">
-            <button class="btn color-lightbrown  btnAll">todos</button>
-            <button class="btn color-lightbrown  btnNacional">nacionales</button>
-            <button class="btn color-lightbrown  btnInternacional">internacionales</button>
-          </div>
-          <div id="destinosContainer" class="row">
-          </div>
-          <div class="row text-center pt-2"><p  class="fs-0">*Consultar por tarifas de salidas individuales promocionales de cupo, destinos nacionales e internacionales.</p></div>
-        </div>
-        <!-- end of .container-->
-
-      </section>
-      <!-- <section> close ============================-->
-
-
-      <!-- section template -->
-      
-      <template id="template-card">
-        <div id="destino1" class="destinos" data-aos="fade-up">
-          <div class="card card-destiny overflow-hidden shadow"> 
-            <img class="card-img-top imgDestino" src="" alt="" />
-            <div class="card-body py-4 px-3">
-              <div class="d-flex flex-column justify-content-between mb-3">
-                <h4 class="text-secondary fw-medium">
-                  <a class="link-900 text-decoration-none stretched-link card-title fw-bold" href="#contacto"></a>
-                </h4>
-              <div class="d-flex flex-row justify-content-between mb-3"></div>
-                <h4 class="text-secondary fw-medium">
-                  <a class="link-900 text-decoration-none stretched-link card-title-locations locationCard fs-1" href="#contacto"></a>
-                </h4>
-              </div>
-              <div class="d-flex justify-content-between card-date">
-              </div>
-            </div>
-            <div class="text-center mb-3"> 
-              <a
-                class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow bg-lightbrown" href="#contacto"
-                role="button">¡Quiero este viaje!
-              </a>
-            </div>
-          </div>
-        </div>
-      </template>
-
-      <!-- section template close-->
-
-      <!-- ============================================-->  
-      <!-- seccion nosotros -->
-
-      <section id="nosotros" class="container pt-5 mb-7">
-          <div class="container">
-            <div class="position-absolute z-index--1 end-0 d-none d-lg-block"><img src="./public/assets/img/category/shape.svg" style="max-width: 200px" alt="Nosotros" /></div>
-            <div class="mb-8 text-center">
-              <h5 class="color-lightbrown">Quienes somos</h5>
-              <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">Nosotros</h3>
-            </div>
-            <div class="row align-items-center mb-5 mb-lg-8" >
-              <div class="col-lg-7 col-sm-12 text-justify order-1 order-lg-0 py-4 py-lg-0" >
-                <p class="nosotrosParrafo fs-2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">Desde el 2001 nos dedicamos a diseñar viajes a medida de nuestros pasajeros. </p>
-                <p class="nosotrosParrafo fs-2" data-aos="fade-up" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="false">Más de 20 años recorriendo pueblos, ciudades y diferentes culturas, nos permiten ofrecer las mejores propuestas para tus viajes.</p>
-              </div>
-              <div class="col-lg-5 col-sm-12 order-0 order-lg-1 d-flex justify-content-center" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
-                <img class="nosotrosImage" width="360" height="270" src="./public/assets/img/nosotros/modelo3/old-1130736_1280.jpg" alt="">
-              </div>
-            </div>
-            <div class="row align-items-center mb-5 mb-lg-8" >
-              <div class="col-lg-5 col-sm-12 order-0 order-lg-0 d-flex justify-content-center" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
-                <img class="nosotrosImage" width="360" height="270" src="./public/assets/img/nosotros/modelo3/knowledge-1052013_1280.jpg" alt="">
-              </div>
-              <div class="col-lg-7 col-sm-12 text-justify order-1 order-lg-1 py-4 py-lg-0" >
-                <p class="nosotrosParrafo fs-2" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">Nos especializamos en el turismo cultural, y para quienes  eligen formar parte de nuestros grupos, organizamos salidas cortas, cenas o paseos para compartir sus  experiencias de sus viajes por el mundo.</p>
-                <p class="nosotrosParrafo fs-2" data-aos="fade-left" data-aos-duration="1200" data-aos-easing="ease-in-out" data-aos-once="false">Trabajamos con operadores y receptivos locales con la misma calidad de producto. </p>
-              </div>
-            </div>
-            <div class="row align-items-center " data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos-once="false">
-              <div class="col-lg-7 col-sm-12 text-justify order-1 order-lg-0 py-4 py-lg-0">
-                <p class="nosotrosParrafo fs-2">Viajar para nosotros es disfrutar, conocer, aprender, conectarse con otras personas iguales o diferentes y así seguir creciendo.</p>
-              </div>
-              <div class="col-lg-5 col-sm-12 order-0 order-lg-1 d-flex justify-content-center">
-                <img class="nosotrosImage" width="360" height="270" src="./public/assets/img/nosotros/modelo3/camera-1130731_1280.jpg" alt="">
-              </div>
-            </div>
-          </div>
-      </section>
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="pt-6" id="contacto">
-
-        <div class="container">
-          <div class="py-8 px-5 position-relative text-center" style="background-color: rgba(223, 215, 249, 0.199);border-radius: 129px 20px 20px 20px;">
-            <div class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"> <img src="./public/assets/img/cta/send.png" style="max-width:70px;" alt="boton" /></div>
-            <div class="position-absolute end-0 top-0 z-index--1"> <img src="./public/assets/img/cta/shape-bg2.png" width="264" alt="cta shape" /></div>
-            <div class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"> <img src="./public/assets/img/cta/shape-bg1.png" style="max-width: 340px;" alt="cta shape" /></div>
-            <div class="row justify-content-center">
-              <div class="col-lg-8 col-md-10">
-                <h2 class="text-secondary lh-1-7 mb-7">¿Tenés dudas?<br> Consultanos acerca de tu proximo viaje.</h2>
-                <form action="./public/assets/forms/contact_me.php" method="post" role="form"  class="row g-3 align-items-center w-lg-75 mx-auto php-email-form">
-                  <div class="col-sm">
-                    <div class="input-group-icon d-flex flex-column flex-md-row ">
-                      <input class="form-control form-little-squirrel-control inputNombre inputFormularios" name="name" id="name" type="text" placeholder="Nombre" aria-label="nombre" required/>
-                      <input class="form-control form-little-squirrel-control inputFormularios mt-3 mt-md-0" name="email" id="email" type="email" placeholder="Email" aria-label="email" required/>
+    <body>
+        <!-- ===============================================-->
+        <!--    Main Content-->
+        <!-- ===============================================-->
+        <main class="main" id="top">
+            <nav
+                class="navbar navbar-expand-lg navbar-light fixed-top py-5 d-block"
+                data-navbar-on-scroll="data-navbar-on-scroll"
+            >
+                <div class="container">
+                    <a class="navbar-brand" href="index.html">
+                        <img
+                            src="./public/assets/img/logo/logoCyR.svg"
+                            height="100"
+                            alt="logo"
+                        />
+                    </a>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                    >
+                        <span class="navbar-toggler-icon"> </span>
+                    </button>
+                    <div
+                        class="collapse navbar-collapse border-top border-lg-0 mt-4 mt-lg-0"
+                        id="navbarSupportedContent"
+                    >
+                        <ul
+                            class="navbar-nav ms-auto pt-2 pt-lg-0 font-base align-items-lg-center align-items-start"
+                        >
+                            <li class="nav-item px-3 px-xl-4">
+                                <a
+                                    class="btn color-white bg-blue rounded fw-medium fs-2 btnNavLink-paquetes"
+                                    aria-current="page"
+                                    href="#destinos"
+                                    >Paquetes</a
+                                >
+                            </li>
+                            <li class="nav-item px-3 px-xl-4">
+                                <a
+                                    class="btn color-white bg-blue rounded fw-medium fs-2 btnNavLink-nosotros"
+                                    aria-current="page"
+                                    href="#nosotros"
+                                    >Nosotros</a
+                                >
+                            </li>
+                            <li class="nav-item px-3 px-xl-4">
+                                <a
+                                    class="btn color-white bg-blue order-1 order-lg-0 fw-medium fs-2 rounded btnNavLink-contacto"
+                                    href="#contacto"
+                                    >Contactanos</a
+                                >
+                            </li>
+                            <li class="nav-item px-3 px-xl-4">
+                                <a
+                                    class="btn btn-blog color-white bg-lightbrown order-1 order-lg-0 fw-medium fs-2 rounded"
+                                    target="_blank"
+                                    href="https://charlasdeviaje.blogspot.com/"
+                                    >Blog</a
+                                >
+                            </li>
+                        </ul>
                     </div>
-                    <div class="input-group-icon d-flex mt-2"></div>
-                      <textarea class="container form-control form-little-squirrel-control inputMensaje inputFormularios" name="message" id="message" cols="30" rows="10" placeholder="Escriba su mensaje" required></textarea>
-                  </div>
-                  <div class="row-sm-auto">
-                    <button type="submit" class="btn btn-warning orange-gradient-btn fs--1 mt-3 btnHover bg-lightbrown">Enviar</button>
-                  </div>
-                  <div class="my-3">
-                    <div class="loading">Cargando</div>
-                    <div class="error-message">Ha ocurrido un problema, intente nuevamente</div>
-                    <div class="sent-message">Tu mensaje fue enviado, muchas gracias!</div>
-                  </div>
-                </form>
-              </div>
-            </div>  
-          </div>
-        </div>
-      </section>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+                </div>
+            </nav>
+            <section
+                class="portada"
+                style="padding-top: 8rem; position: relative"
+            >
+                <div
+                    class="bg-holder"
+                    style="
+                        background-image: url(./public/assets/img/hero/imagen-playa-web.jpeg);
+                    "
+                ></div>
+                <!--/.bg-holder-->
 
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div
+                            class="col-md-5 col-lg-6 order-0 order-md-1 text-end"
+                        ></div>
+                        <div
+                            class="col-md-7 col-lg-6 text-md-start text-center py-6"
+                        >
+                            <h4
+                                class="fw-bold mb-3 color-white shadow-blue text-shadow-blue"
+                            >
+                                Date el gusto
+                            </h4>
+                            <h2 class="hero-title">
+                                Viajá, disfrutá y viví nuevas experiencias
+                            </h2>
+                            <p
+                                class="mt-4 mb-4 fs-5 fw-medium color-white shadow-blue text-shadow-blue"
+                            >
+                                Explorá nuestra galeria de viajes.
+                            </p>
+                            <div class="text-center text-md-start">
+                                <a
+                                    class="btnInicio btn btn-warning bg-white colorBlue btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow fw-bold"
+                                    href="#destinos"
+                                    role="button"
+                                    >¡Quiero Viajar!</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5 pt-md-9" id="service">
+                <div class="container">
+                    <div
+                        class="position-absolute z-index--1 end-0 d-none d-lg-block"
+                    >
+                        <img
+                            src="./public/assets/img/category/shape.svg"
+                            style="max-width: 200px"
+                            alt="service"
+                        />
+                    </div>
+                    <div class="mb-8 text-center">
+                        <h5 class="color-lightbrown">Categorías</h5>
+                        <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">
+                            Nuestros servicios
+                        </h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 mb-6">
+                            <div
+                                class="card service-card shadow-hover rounded-3 text-center align-items-center"
+                            >
+                                <div
+                                    class="card-body p-xxl-5 p-4"
+                                    data-aos="fade-up"
+                                >
+                                    <img
+                                        src="./public/assets/img/icons/holidays-vacation-travel-luggage-svgrepo-com.svg"
+                                        width="60"
+                                        height="60"
+                                        alt="Viajes grupales"
+                                    />
+                                    <h4 class="mb-3 mt-3">Viajes</h4>
+                                    <p class="mb-0 fw-medium">
+                                        Grupales, individuales (nacionales e
+                                        internacionales).
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-6">
+                            <div
+                                class="card service-card shadow-hover rounded-3 text-center align-items-center"
+                            >
+                                <div
+                                    class="card-body p-xxl-5 p-4"
+                                    data-aos="fade-up"
+                                >
+                                    <img
+                                        src="./public/assets/img/icons/travel-persons.svg"
+                                        width="60"
+                                        height="60"
+                                        alt="Comunidad"
+                                    />
+                                    <h4 class="mb-3 mt-3">Comunidad</h4>
+                                    <p class="mb-0 fw-medium">
+                                        Encuentros con gente viajera.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mb-6">
+                            <div
+                                class="card service-card shadow-hover rounded-3 text-center align-items-center"
+                            >
+                                <div
+                                    class="card-body p-xxl-5 p-4"
+                                    data-aos="fade-up"
+                                >
+                                    <img
+                                        src="./public/assets/img/icons/stethoscope-medical-heart-beats-control-tool-svgrepo-com.svg"
+                                        width="60"
+                                        height="60"
+                                        alt="Asistencia al viajero"
+                                    />
+                                    <h4 class="mb-3 mt-3">
+                                        Asistencia al viajero
+                                    </h4>
+                                    <p class="mb-0 fw-medium">
+                                        Siempre hay un descuento para vos.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
 
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-5 mt-5" id="destinos">
+                <div class="container">
+                    <div
+                        class="position-absolute start-100 bottom-0 translate-middle-x d-none d-xl-block ms-xl-n4"
+                    >
+                        <img
+                            src="./public/assets/img/dest/shape.svg"
+                            alt="destinos"
+                        />
+                    </div>
+                    <div class="mb-7 text-center">
+                        <h5 class="color-lightbrown">Viajes</h5>
+                        <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">
+                            Destinos destacados del mes
+                        </h3>
+                    </div>
+                    <div class="d-flex gap-1 py-2 justify-content-center">
+                        <button class="btn color-lightbrown btnAll">
+                            todos
+                        </button>
+                        <button class="btn color-lightbrown btnNacional">
+                            nacionales
+                        </button>
+                        <button class="btn color-lightbrown btnInternacional">
+                            internacionales
+                        </button>
+                    </div>
+                    <div id="destinosContainer" class="row"></div>
+                    <div class="row text-center pt-2">
+                        <p class="fs-0">
+                            *Consultar por tarifas de salidas individuales
+                            promocionales de cupo, destinos nacionales e
+                            internacionales.
+                        </p>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </section>
+            <!-- <section> close ============================-->
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <footer class="pb-0 pb-lg-4">
+            <!-- section template -->
 
-        <div class="container">
-          <div class="row">
-            <div class=" logo-footer col-lg-4 col-md-4 col-12 mb-4 mb-md-6 mb-lg-0 order-0">
-              <img class="mb-4" src="./public/assets/img/logo/logoCyR.svg" width="150" alt="culturas y raices" />
+            <template id="template-card">
+                <div id="destino1" class="destinos" data-aos="fade-up">
+                    <div class="card card-destiny overflow-hidden shadow">
+                        <img class="card-img-top imgDestino" src="" alt="" />
+                        <div class="card-body py-4 px-3">
+                            <div
+                                class="d-flex flex-column justify-content-between mb-3"
+                            >
+                                <h4 class="text-secondary fw-medium">
+                                    <a
+                                        class="link-900 text-decoration-none stretched-link card-title fw-bold"
+                                        href="#contacto"
+                                    ></a>
+                                </h4>
+                                <div
+                                    class="d-flex flex-row justify-content-between mb-3"
+                                ></div>
+                                <h4 class="text-secondary fw-medium">
+                                    <a
+                                        class="link-900 text-decoration-none stretched-link card-title-locations locationCard fs-1"
+                                        href="#contacto"
+                                    ></a>
+                                </h4>
+                            </div>
+                            <div
+                                class="d-flex justify-content-between card-date"
+                            ></div>
+                        </div>
+                        <div class="text-center mb-3">
+                            <a
+                                class="btn btn-primary btn-lg me-md-4 mb-3 mb-md-0 border-0 primary-btn-shadow bg-lightbrown"
+                                href="#contacto"
+                                role="button"
+                                >¡Quiero este viaje!
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </template>
+
+            <!-- section template close-->
+
+            <!-- ============================================-->
+            <!-- seccion nosotros -->
+
+            <section id="nosotros" class="container pt-5 mb-7">
+                <div class="container">
+                    <div
+                        class="position-absolute z-index--1 end-0 d-none d-lg-block"
+                    >
+                        <img
+                            src="./public/assets/img/category/shape.svg"
+                            style="max-width: 200px"
+                            alt="Nosotros"
+                        />
+                    </div>
+                    <div class="mb-8 text-center">
+                        <h5 class="color-lightbrown">Quienes somos</h5>
+                        <h3 class="fs-xl-10 fs-lg-8 fs-7 fw-bold font-cursive">
+                            Nosotros
+                        </h3>
+                    </div>
+                    <div class="row align-items-center mb-5 mb-lg-8">
+                        <div
+                            class="col-lg-7 col-sm-12 text-justify order-1 order-lg-0 py-4 py-lg-0"
+                        >
+                            <p
+                                class="nosotrosParrafo fs-2"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="false"
+                            >
+                                Desde el 2001 nos dedicamos a diseñar viajes a
+                                medida de nuestros pasajeros.
+                            </p>
+                            <p
+                                class="nosotrosParrafo fs-2"
+                                data-aos="fade-up"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="false"
+                            >
+                                Más de 20 años recorriendo pueblos, ciudades y
+                                diferentes culturas, nos permiten ofrecer las
+                                mejores propuestas para tus viajes.
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-5 col-sm-12 order-0 order-lg-1 d-flex justify-content-center"
+                            data-aos="fade-left"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                        >
+                            <img
+                                class="nosotrosImage"
+                                width="360"
+                                height="270"
+                                src="./public/assets/img/nosotros/modelo3/old-1130736_1280.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="row align-items-center mb-5 mb-lg-8">
+                        <div
+                            class="col-lg-5 col-sm-12 order-0 order-lg-0 d-flex justify-content-center"
+                            data-aos="fade-right"
+                            data-aos-duration="1000"
+                            data-aos-easing="ease-in-out"
+                            data-aos-once="false"
+                        >
+                            <img
+                                class="nosotrosImage"
+                                width="360"
+                                height="270"
+                                src="./public/assets/img/nosotros/modelo3/knowledge-1052013_1280.jpg"
+                                alt=""
+                            />
+                        </div>
+                        <div
+                            class="col-lg-7 col-sm-12 text-justify order-1 order-lg-1 py-4 py-lg-0"
+                        >
+                            <p
+                                class="nosotrosParrafo fs-2"
+                                data-aos="fade-up"
+                                data-aos-duration="1000"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="false"
+                            >
+                                Nos especializamos en el turismo cultural, y
+                                para quienes eligen formar parte de nuestros
+                                grupos, organizamos salidas cortas, cenas o
+                                paseos para compartir sus experiencias de sus
+                                viajes por el mundo.
+                            </p>
+                            <p
+                                class="nosotrosParrafo fs-2"
+                                data-aos="fade-left"
+                                data-aos-duration="1200"
+                                data-aos-easing="ease-in-out"
+                                data-aos-once="false"
+                            >
+                                Trabajamos con operadores y receptivos locales
+                                con la misma calidad de producto.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="row align-items-center"
+                        data-aos="fade-up"
+                        data-aos-duration="1000"
+                        data-aos-easing="ease-in-out"
+                        data-aos-once="false"
+                    >
+                        <div
+                            class="col-lg-7 col-sm-12 text-justify order-1 order-lg-0 py-4 py-lg-0"
+                        >
+                            <p class="nosotrosParrafo fs-2">
+                                Viajar para nosotros es disfrutar, conocer,
+                                aprender, conectarse con otras personas iguales
+                                o diferentes y así seguir creciendo.
+                            </p>
+                        </div>
+                        <div
+                            class="col-lg-5 col-sm-12 order-0 order-lg-1 d-flex justify-content-center"
+                        >
+                            <img
+                                class="nosotrosImage"
+                                width="360"
+                                height="270"
+                                src="./public/assets/img/nosotros/modelo3/camera-1130731_1280.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <section class="pt-6" id="contacto">
+                <div class="container">
+                    <div
+                        class="py-8 px-5 position-relative text-center"
+                        style="
+                            background-color: rgba(223, 215, 249, 0.199);
+                            border-radius: 129px 20px 20px 20px;
+                        "
+                    >
+                        <div
+                            class="position-absolute start-100 top-0 translate-middle ms-md-n3 ms-n4 mt-3"
+                        >
+                            <img
+                                src="./public/assets/img/cta/send.png"
+                                style="max-width: 70px"
+                                alt="boton"
+                            />
+                        </div>
+                        <div class="position-absolute end-0 top-0 z-index--1">
+                            <img
+                                src="./public/assets/img/cta/shape-bg2.png"
+                                width="264"
+                                alt="cta shape"
+                            />
+                        </div>
+                        <div
+                            class="position-absolute start-0 bottom-0 ms-3 z-index--1 d-none d-sm-block"
+                        >
+                            <img
+                                src="./public/assets/img/cta/shape-bg1.png"
+                                style="max-width: 340px"
+                                alt="cta shape"
+                            />
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8 col-md-10">
+                                <h2 class="text-secondary lh-1-7 mb-7">
+                                    ¿Tenés dudas?<br />
+                                    Consultanos acerca de tu proximo viaje.
+                                </h2>
+                                <form
+                                    action="./public/assets/forms/contact_me.php"
+                                    method="post"
+                                    role="form"
+                                    class="row g-3 align-items-center w-lg-75 mx-auto php-email-form"
+                                >
+                                    <div class="col-sm">
+                                        <div
+                                            class="input-group-icon d-flex flex-column flex-md-row"
+                                        >
+                                            <input
+                                                class="form-control form-little-squirrel-control inputNombre inputFormularios"
+                                                name="name"
+                                                id="name"
+                                                type="text"
+                                                placeholder="Nombre"
+                                                aria-label="nombre"
+                                                required
+                                            />
+                                            <input
+                                                class="form-control form-little-squirrel-control inputFormularios mt-3 mt-md-0"
+                                                name="email"
+                                                id="email"
+                                                type="email"
+                                                placeholder="Email"
+                                                aria-label="email"
+                                                required
+                                            />
+                                        </div>
+                                        <div
+                                            class="input-group-icon d-flex mt-2"
+                                        ></div>
+                                        <textarea
+                                            class="container form-control form-little-squirrel-control inputMensaje inputFormularios"
+                                            name="message"
+                                            id="message"
+                                            cols="30"
+                                            rows="10"
+                                            placeholder="Escriba su mensaje"
+                                            required
+                                        ></textarea>
+                                    </div>
+                                    <div class="row-sm-auto">
+                                        <button
+                                            type="submit"
+                                            class="btn btn-warning orange-gradient-btn fs--1 mt-3 btnHover bg-lightbrown"
+                                        >
+                                            Enviar
+                                        </button>
+                                    </div>
+                                    <div class="my-3">
+                                        <div class="loading">Cargando</div>
+                                        <div class="error-message">
+                                            Ha ocurrido un problema, intente
+                                            nuevamente
+                                        </div>
+                                        <div class="sent-message">
+                                            Tu mensaje fue enviado, muchas
+                                            gracias!
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <!-- ============================================-->
+            <!-- <section> begin ============================-->
+            <footer class="pb-0 pb-lg-4">
+                <div class="container">
+                    <div class="row">
+                        <div
+                            class="logo-footer col-lg-4 col-md-4 col-12 mb-4 mb-md-6 mb-lg-0 order-0"
+                        >
+                            <img
+                                class="mb-4"
+                                src="./public/assets/img/logo/logoCyR.svg"
+                                width="150"
+                                alt="culturas y raices"
+                            />
+                        </div>
+                        <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 order-lg-1">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2 fs-1 fw-medium">
+                                    Culturas Y Raíces Turismo EVT <br />
+                                    Razón Social: Rappa, Marta Alicia <br />
+                                    Legajo: 16066.
+                                </li>
+                            </ul>
+                        </div>
+                        <div
+                            class="col-lg-4 col-md-4 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4"
+                        >
+                            <p class="fw-medium fs-1">
+                                Sigamos en contacto a través de nuestras redes.
+                            </p>
+                            <div class="icon-group mb-4 justify-content-center">
+                                <a
+                                    class="text-decoration-none icon-item shadow-social"
+                                    id="facebook"
+                                    href="https://www.facebook.com/culturasyraices/"
+                                    target="_blank"
+                                    ><i class="fab fa-facebook-f fa-2x"></i>
+                                </a>
+                                <a
+                                    class="text-decoration-none icon-item shadow-social"
+                                    id="instagram"
+                                    href="https://www.instagram.com/culturasyraices/"
+                                    target="_blank"
+                                    ><i class="fab fa-instagram fa-2x"></i>
+                                </a>
+                            </div>
+                            <div
+                                class="gap-1 gap-md-4 d-flex align-items-center mb-2"
+                            >
+                                <a
+                                    class="link-900"
+                                    aria-current="page"
+                                    href="./public/assets/documents/Alta-domicilio-virtual-noti-enero-2023.pdf"
+                                    target="_blank"
+                                    >Local Virtual</a
+                                >
+                                <a
+                                    class="link-900"
+                                    aria-current="page"
+                                    href="./public/assets/documents/Legajo-Habilitante-Culturas-y-Raices.pdf"
+                                    target="_blank"
+                                    >Habilitacion</a
+                                >
+                            </div>
+                            <a
+                                class="link-900"
+                                href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes"
+                                target="_blank"
+                            >
+                                Denuncia contra una agencia de viajes
+                                (Resolución N° 141/82)</a
+                            >
+                            <div class="mt-2">
+                                <a
+                                    class="link-900"
+                                    aria-current="page"
+                                    href="./public/assets/documents/Condiciones-generales-contratacion.pdf"
+                                    target="_blank"
+                                    >Condiciones generales de contratación</a
+                                >
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- end of .container-->
+            </footer>
+            <!-- <section> close ============================-->
+            <!-- ============================================-->
+
+            <div class="py-5 text-center">
+                <p class="mb-0 text-secondary fs--1 fw-medium">
+                    Desarrollado por
+                    <a href="https://kumpel.com.ar/" target="_blank">Kumpel</a>
+                </p>
             </div>
-            <div class="col-lg-4 col-md-4 mb-4 mb-lg-0 order-lg-1 ">
-              <ul class="list-unstyled mb-0">
-                <li class="mb-2  fs-1 fw-medium">Culturas Y Raíces Turismo EVT <br>
-                  Razón Social: Rappa, Marta Alicia <br>
-                  Legajo: 16066.</li>
-              </ul>
-            </div>
-            <div class="col-lg-4 col-md-4 col-12 mb-4 mb-md-6 mb-lg-0 order-lg-4 ">
-              <p class="fw-medium fs-1">Sigamos en contacto a través de nuestras redes.</p>
-              <div class="icon-group mb-4 justify-content-center">
-                <a class="text-decoration-none icon-item shadow-social" id="facebook" href="https://www.facebook.com/culturasyraices/" target="_blank"><i class="fab fa-facebook-f fa-2x"></i>
-                </a>
-                <a class="text-decoration-none icon-item shadow-social" id="instagram" href="https://www.instagram.com/culturasyraices/" target="_blank"><i class="fab fa-instagram fa-2x"></i>
-                </a>
-              </div>
-              <div class="gap-1 gap-md-4 d-flex align-items-center mb-2">
-                <a class="link-900" aria-current="page" href="./public/assets/documents/certificado-de-domicilio-virtual.pdf" target="_blank">Local Virtual</a>
-                <a class="link-900" aria-current="page" href="./public/assets/documents/Legajo-Habilitante-Culturas-y-Raices.pdf" target="_blank">Habilitacion</a>
-              </div>
-              <a class="link-900" href="https://www.argentina.gob.ar/servicio/presentar-una-denuncia-contra-una-agencia-de-viajes" target="_blank"> Denuncia contra una agencia de viajes (Resolución N° 141/82)</a>
-              <div class="mt-2"><a class="link-900" aria-current="page" href="./public/assets/documents/Condiciones-generales-contratacion.pdf" target="_blank">Condiciones generales de contratación</a>
-              </div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
+        </main>
+        <!-- ===============================================-->
+        <!--    End of Main Content-->
+        <!-- ===============================================-->
 
-      </footer>
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
+        <!-- ===============================================-->
+        <!--    JavaScripts-->
+        <!-- ===============================================-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="./public/vendors/@popperjs/popper.min.js"></script>
+        <script src="./public/vendors/bootstrap/bootstrap.min.js"></script>
+        <script src="./public/vendors/is/is.min.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+        <script src="./public/vendors/fontawesome/all.min.js"></script>
+        <script src="./public/assets/js/theme.js"></script>
+        <script src="./public/assets/js/validate.js"></script>
+        <script src="./public/assets/js/inputFill.js"></script>
+        <script src="./public/assets/js/fragment.js"></script>
 
-
-      <div class="py-5 text-center ">
-        <p class="mb-0 text-secondary fs--1 fw-medium">Desarrollado por <a href="https://kumpel.com.ar/" target="_blank">Kumpel</a> </p>
-      </div>
-    </main>
-    <!-- ===============================================-->
-    <!--    End of Main Content-->
-    <!-- ===============================================-->
-
-
-
-
-    <!-- ===============================================-->
-    <!--    JavaScripts-->
-    <!-- ===============================================-->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>  AOS.init();</script>
-    <script src="./public/vendors/@popperjs/popper.min.js"></script>
-    <script src="./public/vendors/bootstrap/bootstrap.min.js"></script>
-    <script src="./public/vendors/is/is.min.js"></script>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
-    <script src="./public/vendors/fontawesome/all.min.js"></script>
-    <script src="./public/assets/js/theme.js"></script>
-    <script src="./public/assets/js/validate.js"></script>
-    <script src="./public/assets/js/inputFill.js"></script>
-    <script src="./public/assets/js/fragment.js"></script>
-
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap" rel="stylesheet">
-  </body>
-
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Volkhov:wght@700&amp;display=swap"
+            rel="stylesheet"
+        />
+    </body>
 </html>
