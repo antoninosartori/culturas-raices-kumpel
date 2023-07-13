@@ -10,24 +10,6 @@
     },
     {
         "id": 1,
-        "title": "Peru en Vacaciones",
-        "locations": "Lima, Urubamba, Machu Pichu, Cusco",
-        "image": "https://source.unsplash.com/bDaqeARFTkA",
-        "days": "7",
-        "travel_date": ["23 de Julio"],
-        "isNacional": false
-    },
-    {
-        "id": 2,
-        "title": "Iguazú",
-        "locations": "Cataratas Argentinas y Brasileras",
-        "image": "https://source.unsplash.com/VhrRkw0mgQw",
-        "days": "4",
-        "travel_date": ["15 de Julio"],
-        "isNacional": true
-    },
-    {
-        "id": 3,
         "title": "Puerto Madryn",
         "locations": "Chubut",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ecocentro_madryn.jpg/560px-Ecocentro_madryn.jpg",
@@ -36,12 +18,48 @@
         "isNacional": true
     },
     {
-        "id": 4,
-        "title": "Puerto Madryn con aéreos",
-        "locations": "Chubut",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Monumento_tehuelche_madryn.jpg/477px-Monumento_tehuelche_madryn.jpg",
-        "days": "4",
-        "travel_date": ["17 de Julio"],
+        "id": 2,
+        "title": "Lagos y Volcanes",
+        "locations": "San Martin de los Andes, Volcan Lanín, Bariloche, Villa La Angostura",
+        "image": "https://www.neuqueninforma.gob.ar/wp-content/uploads/2023/02/ocupacion-del-91-San-Martin-de-los-Andes.jpg",
+        "days": "7",
+        "travel_date": ["8 de Noviembre"],
         "isNacional": true
+    },
+    {
+        "id": 3,
+        "title": "Patagónico Norte con Tulipanes",
+        "locations": "Puerto Madryn, Esquel, Lago Puelo, Trevelin, El Bolson",
+        "image": "https://media.ambito.com/p/a81b768b0f718684992f5e45e0e9fa32/adjuntos/239/imagenes/040/773/0040773433/1200x675/smart/ballenas-puerto-madrrynjpg.jpg",
+        "days": "7",
+        "travel_date": ["2 de Octubre"],
+        "isNacional": true
+    },
+    {
+        "id": 4,
+        "title": "Circuito Grecia",
+        "locations": "Atenas, Mykonos, Santorini",
+        "image": "https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/JTR/jtr-santorini-port-1.jpg.image.2048.1536.medium.jpg",
+        "days": "10",
+        "travel_date": ["A confirmar"],
+        "isNacional": false
+    },
+    {
+        "id": 5,
+        "title": "Sabores de Colombia",
+        "locations": "Medellin, Cartagena",
+        "image": "https://images.ctfassets.net/cfexf643femz/7ffmw1z22uDIYLvOwPWKvc/d7cdd973106b745b58904dd19a36d687/razones-invertir-cartagena-colombia.jpg",
+        "days": "9",
+        "travel_date": ["25 de Octubre"],
+        "isNacional": false
+    },
+    {
+        "id": 6,
+        "title": "Punta Cana",
+        "locations": "Punta Cana, República Dominicana",
+        "image": "https://static.barcelo.com/content/dam/bpt/posts/2020/10/vacaciones-en-punta-cana.jpg",
+        "days": "8",
+        "travel_date": ["30 de Agosto"],
+        "isNacional": false
     }
 ]
