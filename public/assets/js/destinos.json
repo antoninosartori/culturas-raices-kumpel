@@ -1,20 +1,20 @@
 [
     {
         "id": 0,
-        "title": "Cuba Vacation's Club",
-        "locations": "Cayo Coco, La Habana, Varadero",
-        "image": "https://mediaim.expedia.com/destination/1/4655364ec5c7e6e1f1631c482ffee852.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
-        "days": "13",
-        "travel_date": ["12, 19 y 26 de Julio"],
-        "isNacional": false
+        "title": "El Bolson, Trevelin",
+        "locations": "El Bolson, Trevelin, campo de tulipanes",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Cartel_El_Bolson.jpg",
+        "days": "4",
+        "travel_date": ["24 de Octubre"],
+        "isNacional": true
     },
     {
         "id": 1,
-        "title": "Puerto Madryn",
-        "locations": "Chubut",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ecocentro_madryn.jpg/560px-Ecocentro_madryn.jpg",
-        "days": "4",
-        "travel_date": ["24 de Julio"],
+        "title": "Villa Pehuenia",
+        "locations": "Neuquén",
+        "image": "https://www.villapehuenia.gob.ar/images/turismo/paseos-turisticos/muelle/muelle-2.jpg",
+        "days": "7",
+        "travel_date": ["21 de Noviembre"],
         "isNacional": true
     },
     {
@@ -56,10 +56,19 @@
     {
         "id": 6,
         "title": "Punta Cana",
-        "locations": "Punta Cana, República Dominicana",
+        "locations": "República Dominicana",
         "image": "https://static.barcelo.com/content/dam/bpt/posts/2020/10/vacaciones-en-punta-cana.jpg",
-        "days": "8",
-        "travel_date": ["30 de Agosto"],
+        "days": "11",
+        "travel_date": ["Octubre a Diciembre 2023"],
         "isNacional": false
-    }
+    },
+    {
+      "id": 7,
+      "title": "Maravillas de Turquía",
+      "locations": "Estambul",
+      "image": "https://circuitoporturquia.com/wp-content/uploads/2021/02/turkeytours-16.webp",
+      "days": "11",
+      "travel_date": ["5 de Abril de 2024"],
+      "isNacional": false
+   }
 ]
