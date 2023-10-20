@@ -10,6 +10,15 @@
   },
   {
     "id": 1,
+    "title": "Punta Cana",
+    "locations": "República Dominicana",
+    "image": "https://static.barcelo.com/content/dam/bpt/posts/2020/10/vacaciones-en-punta-cana.jpg",
+    "days": "11",
+    "travel_date": ["Octubre a Diciembre 2023"],
+    "isNacional": false
+  },
+  {
+    "id": 2,
     "title": "Caviahue y Villa Pehuenia",
     "locations": "Excursiones - Incluye aéreos",
     "image": "https://www.villapehuenia.gob.ar/images/turismo/paseos-turisticos/muelle/muelle-2.jpg",
@@ -18,7 +27,7 @@
     "isNacional": true
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "Sierra de la Ventana",
     "locations": "Circuito Ventania - Saldungaray",
     "image": "https://images.mnstatic.com/7b/9e/7b9efe06f6f56ec8677fac7032c53019.jpg",
@@ -27,7 +36,7 @@
     "isNacional": true
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Concordia - Termas de Ayui",
     "locations": "Palacio San Carlos - Establecimiento Viejo Roble",
     "image": "https://radiozona.com.ar/wp-content/uploads/2021/07/termas-del-ayui-1.jpg",
@@ -36,57 +45,66 @@
     "isNacional": true
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Brasil - Buzios",
     "locations": "Rio de Janeiro",
     "image": "https://www.101viajes.com/sites/default/files/buzios-playa.jpg",
     "days": "11",
-    "travel_date": ["14 de Enero"],
-    "isNacional": false
-  },
-  {
-    "id": 5,
-    "title": "Brasil - Buzios",
-    "locations": "Salvador - Morro de Sao Pablo",
-    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/morro-de-sao-paulo-bahia-capa-1.jpg",
-    "days": "8",
-    "travel_date": ["20 de Enero"],
+    "travel_date": ["14 de Enero de 2024"],
     "isNacional": false
   },
   {
     "id": 6,
     "title": "Brasil - Buzios",
-    "locations": "Pousada Solar Dos Corais - C/desayuno",
-    "image": "https://delagranitalia.com.ar/wp-content/uploads/2020/07/buzios-3-1600.jpg",
-    "days": "9",
-    "travel_date": ["9 - 17 de Marzo"],
+    "locations": "Salvador - Morro de Sao Pablo",
+    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/morro-de-sao-paulo-bahia-capa-1.jpg",
+    "days": "8",
+    "travel_date": ["20 de Enero de 2024"],
     "isNacional": false
   },
   {
     "id": 7,
-    "title": "Brasil - Gran Palladium Imbassai",
-    "locations": "Resort & SPA All Inclusive",
-    "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/hotelier-images/bc/7a/c800406703c678cdb7ccaa50ad491e48566337e9d76f63a2df9270b1bbb5.jpeg",
-    "days": "8",
-    "travel_date": ["18 - 25 de Marzo"],
+    "title": "Brasil - Buzios",
+    "locations": "Pousada Solar Dos Corais - C/desayuno",
+    "image": "https://delagranitalia.com.ar/wp-content/uploads/2020/07/buzios-3-1600.jpg",
+    "days": "9",
+    "travel_date": ["9 - 17 de Marzo de 2024"],
     "isNacional": false
   },
   {
     "id": 8,
-    "title": "Portugal de Norte a Sur",
-    "locations": "Lisboa - Fátima - Nazaré - Region Algarve",
-    "image": "https://static.portugalbywine.com/media//MULTIMEDIA/FOTOS/80/0003E5DC2E71E4_1920.jpg",
-    "days": "16",
-    "travel_date": ["14 de Abril"],
+    "title": "Brasil - Gran Palladium Imbassai",
+    "locations": "Resort & SPA All Inclusive",
+    "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/hotelier-images/bc/7a/c800406703c678cdb7ccaa50ad491e48566337e9d76f63a2df9270b1bbb5.jpeg",
+    "days": "8",
+    "travel_date": ["18 - 25 de Marzo de 2024"],
     "isNacional": false
   },
   {
     "id": 9,
+    "title": "Maravillas de Turquía",
+    "locations": "Estambul",
+    "image": "https://circuitoporturquia.com/wp-content/uploads/2021/02/turkeytours-16.webp",
+    "days": "11",
+    "travel_date": ["5 de Abril de 2024"],
+    "isNacional": false
+  },
+  {
+    "id": 10,
+    "title": "Portugal de Norte a Sur",
+    "locations": "Lisboa - Fátima - Nazaré - Region Algarve",
+    "image": "https://static.portugalbywine.com/media//MULTIMEDIA/FOTOS/80/0003E5DC2E71E4_1920.jpg",
+    "days": "16",
+    "travel_date": ["14 de Abril de 2024"],
+    "isNacional": false
+  },
+  {
+    "id": 11,
     "title": "Brasil - Natal",
     "locations": "Portal Do Mar - All Inclusive",
     "image": "https://www.cronista.com/files/image/297/297111/5ffe0be5ac5d0.jpg",
     "days": "6",
-    "travel_date": ["9 - 16 de Abril"],
+    "travel_date": ["9 - 16 de Abril de 2024"],
     "isNacional": false
   }
 ]
