@@ -1,65 +1,92 @@
 [
-    {
-        "id": 0,
-        "title": "Cuba Vacation's Club",
-        "locations": "Cayo Coco, La Habana, Varadero",
-        "image": "https://mediaim.expedia.com/destination/1/4655364ec5c7e6e1f1631c482ffee852.jpg?impolicy=fcrop&w=1040&h=580&q=mediumHigh",
-        "days": "13",
-        "travel_date": ["12, 19 y 26 de Julio"],
-        "isNacional": false
-    },
-    {
-        "id": 1,
-        "title": "Puerto Madryn",
-        "locations": "Chubut",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Ecocentro_madryn.jpg/560px-Ecocentro_madryn.jpg",
-        "days": "4",
-        "travel_date": ["24 de Julio"],
-        "isNacional": true
-    },
-    {
-        "id": 2,
-        "title": "Lagos y Volcanes",
-        "locations": "San Martin de los Andes, Volcan Lanín, Bariloche, Villa La Angostura",
-        "image": "https://www.neuqueninforma.gob.ar/wp-content/uploads/2023/02/ocupacion-del-91-San-Martin-de-los-Andes.jpg",
-        "days": "7",
-        "travel_date": ["8 de Noviembre"],
-        "isNacional": true
-    },
-    {
-        "id": 3,
-        "title": "Patagónico Norte con Tulipanes",
-        "locations": "Puerto Madryn, Esquel, Lago Puelo, Trevelin, El Bolson",
-        "image": "https://media.ambito.com/p/a81b768b0f718684992f5e45e0e9fa32/adjuntos/239/imagenes/040/773/0040773433/1200x675/smart/ballenas-puerto-madrrynjpg.jpg",
-        "days": "7",
-        "travel_date": ["2 de Octubre"],
-        "isNacional": true
-    },
-    {
-        "id": 4,
-        "title": "Circuito Grecia",
-        "locations": "Atenas, Mykonos, Santorini",
-        "image": "https://www.costacruceros.com/content/dam/costa/inventory-assets/ports/JTR/jtr-santorini-port-1.jpg.image.2048.1536.medium.jpg",
-        "days": "10",
-        "travel_date": ["A confirmar"],
-        "isNacional": false
-    },
-    {
-        "id": 5,
-        "title": "Sabores de Colombia",
-        "locations": "Medellin, Cartagena",
-        "image": "https://images.ctfassets.net/cfexf643femz/7ffmw1z22uDIYLvOwPWKvc/d7cdd973106b745b58904dd19a36d687/razones-invertir-cartagena-colombia.jpg",
-        "days": "9",
-        "travel_date": ["25 de Octubre"],
-        "isNacional": false
-    },
-    {
-        "id": 6,
-        "title": "Punta Cana",
-        "locations": "Punta Cana, República Dominicana",
-        "image": "https://static.barcelo.com/content/dam/bpt/posts/2020/10/vacaciones-en-punta-cana.jpg",
-        "days": "8",
-        "travel_date": ["30 de Agosto"],
-        "isNacional": false
-    }
+  {
+    "id": 0,
+    "title": "Lagos y Volcanes",
+    "locations": "San Martin de los Andes, Volcan Lanín, Bariloche, Villa La Angostura",
+    "image": "https://www.neuqueninforma.gob.ar/wp-content/uploads/2023/02/ocupacion-del-91-San-Martin-de-los-Andes.jpg",
+    "days": "7",
+    "travel_date": ["8 de Noviembre"],
+    "isNacional": true
+  },
+  {
+    "id": 1,
+    "title": "Caviahue y Villa Pehuenia",
+    "locations": "Excursiones, incluye aéreos",
+    "image": "https://www.villapehuenia.gob.ar/images/turismo/paseos-turisticos/muelle/muelle-2.jpg",
+    "days": "6",
+    "travel_date": ["2 de Diciembre"],
+    "isNacional": true
+  },
+  {
+    "id": 2,
+    "title": "Sierra de la Ventana",
+    "locations": "Circuito Ventania, Saldungaray",
+    "image": "https://images.mnstatic.com/7b/9e/7b9efe06f6f56ec8677fac7032c53019.jpg",
+    "days": "4",
+    "travel_date": ["11 de Diciembre"],
+    "isNacional": true
+  },
+  {
+    "id": 3,
+    "title": "Concordia - Termas de Ayui",
+    "locations": "Palacio San Carlos, Establecimiento Viejo Roble",
+    "image": "https://radiozona.com.ar/wp-content/uploads/2021/07/termas-del-ayui-1.jpg",
+    "days": "3",
+    "travel_date": ["15 de Diciembre"],
+    "isNacional": true
+  },
+  {
+    "id": 4,
+    "title": "Brasil - Buzios",
+    "locations": "Buenos Aires - Rio de Janeiro",
+    "image": "https://www.101viajes.com/sites/default/files/buzios-playa.jpg",
+    "days": "11",
+    "travel_date": ["14 de Enero"],
+    "isNacional": false
+  },
+  {
+    "id": 5,
+    "title": "Brasil - Buzios",
+    "locations": "Salvador - Morro de Sao Pablo",
+    "image": "https://www.melhoresdestinos.com.br/wp-content/uploads/2022/02/morro-de-sao-paulo-bahia-capa-1.jpg",
+    "days": "8",
+    "travel_date": ["20 de Enero"],
+    "isNacional": false
+  },
+  {
+    "id": 6,
+    "title": "Brasil - Buzios",
+    "locations": "Pousada Solar Dos Corais - C/desayuno",
+    "image": "https://delagranitalia.com.ar/wp-content/uploads/2020/07/buzios-3-1600.jpg",
+    "days": "9",
+    "travel_date": ["9 - 17 de Marzo"],
+    "isNacional": false
+  },
+  {
+    "id": 7,
+    "title": "Brasil - Gran Palladium Imbassai",
+    "locations": "Resort & SPA All Inclusive",
+    "image": "https://imgcy.trivago.com/c_fill,d_dummy.jpeg,e_sharpen:60,f_auto,h_627,q_auto,w_1200/hotelier-images/bc/7a/c800406703c678cdb7ccaa50ad491e48566337e9d76f63a2df9270b1bbb5.jpeg",
+    "days": "8",
+    "travel_date": ["18 - 25 de Marzo"],
+    "isNacional": false
+  },
+  {
+    "id": 8,
+    "title": "Portugal de Norte a Sur",
+    "locations": "Lisboa, Fátima, Nazaré, Region Algarve",
+    "image": "https://static.portugalbywine.com/media//MULTIMEDIA/FOTOS/80/0003E5DC2E71E4_1920.jpg",
+    "days": "16",
+    "travel_date": ["14 de Abril"],
+    "isNacional": false
+  },
+  {
+    "id": 9,
+    "title": "Brasil - Natal",
+    "locations": "Portal Do Mar - All Inclusive",
+    "image": "https://www.cronista.com/files/image/297/297111/5ffe0be5ac5d0.jpg",
+    "days": "6",
+    "travel_date": ["9 - 16 de Abril"],
+    "isNacional": false
+  }
 ]
