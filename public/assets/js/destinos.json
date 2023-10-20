@@ -2,7 +2,7 @@
   {
     "id": 0,
     "title": "Lagos y Volcanes",
-    "locations": "San Martin de los Andes, Volcan Lanín, Bariloche, Villa La Angostura",
+    "locations": "San Martin de los Andes - Volcan Lanín - Bariloche - Villa La Angostura",
     "image": "https://www.neuqueninforma.gob.ar/wp-content/uploads/2023/02/ocupacion-del-91-San-Martin-de-los-Andes.jpg",
     "days": "7",
     "travel_date": ["8 de Noviembre"],
@@ -11,7 +11,7 @@
   {
     "id": 1,
     "title": "Caviahue y Villa Pehuenia",
-    "locations": "Excursiones, incluye aéreos",
+    "locations": "Excursiones - Incluye aéreos",
     "image": "https://www.villapehuenia.gob.ar/images/turismo/paseos-turisticos/muelle/muelle-2.jpg",
     "days": "6",
     "travel_date": ["2 de Diciembre"],
@@ -20,7 +20,7 @@
   {
     "id": 2,
     "title": "Sierra de la Ventana",
-    "locations": "Circuito Ventania, Saldungaray",
+    "locations": "Circuito Ventania - Saldungaray",
     "image": "https://images.mnstatic.com/7b/9e/7b9efe06f6f56ec8677fac7032c53019.jpg",
     "days": "4",
     "travel_date": ["11 de Diciembre"],
@@ -29,7 +29,7 @@
   {
     "id": 3,
     "title": "Concordia - Termas de Ayui",
-    "locations": "Palacio San Carlos, Establecimiento Viejo Roble",
+    "locations": "Palacio San Carlos - Establecimiento Viejo Roble",
     "image": "https://radiozona.com.ar/wp-content/uploads/2021/07/termas-del-ayui-1.jpg",
     "days": "3",
     "travel_date": ["15 de Diciembre"],
@@ -38,7 +38,7 @@
   {
     "id": 4,
     "title": "Brasil - Buzios",
-    "locations": "Buenos Aires - Rio de Janeiro",
+    "locations": "Rio de Janeiro",
     "image": "https://www.101viajes.com/sites/default/files/buzios-playa.jpg",
     "days": "11",
     "travel_date": ["14 de Enero"],
@@ -74,7 +74,7 @@
   {
     "id": 8,
     "title": "Portugal de Norte a Sur",
-    "locations": "Lisboa, Fátima, Nazaré, Region Algarve",
+    "locations": "Lisboa - Fátima - Nazaré - Region Algarve",
     "image": "https://static.portugalbywine.com/media//MULTIMEDIA/FOTOS/80/0003E5DC2E71E4_1920.jpg",
     "days": "16",
     "travel_date": ["14 de Abril"],
